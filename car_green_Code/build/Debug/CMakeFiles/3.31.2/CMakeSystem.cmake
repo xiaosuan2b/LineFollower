@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Windows-10.0.22631")
+set(CMAKE_HOST_SYSTEM "Windows-10.0.26100")
 set(CMAKE_HOST_SYSTEM_NAME "Windows")
-set(CMAKE_HOST_SYSTEM_VERSION "10.0.22631")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.26100")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("C:/Users/lxa_H/Documents/单片机Projects/car_green/cmake/gcc-arm-none-eabi.cmake")
+include("C:/Users/lxa_H/Documents/单片机Projects/car_green/car_green_Code/cmake/gcc-arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/lxa_H/Documents/单片机Projects/car_green
+# Install script for directory: C:/Users/lxa_H/Documents/单片机Projects/car_green/car_green_Code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lxa_H/Documents/单片机Projects/car_green/build/Debug/cmake/stm32cubemx/cmake_install.cmake")
+  include("C:/Users/lxa_H/Documents/单片机Projects/car_green/car_green_Code/build/Debug/cmake/stm32cubemx/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/lxa_H/Documents/单片机Projects/car_green/build/Debug/install_local_manifest.txt"
+  file(WRITE "C:/Users/lxa_H/Documents/单片机Projects/car_green/car_green_Code/build/Debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/lxa_H/Documents/单片机Projects/car_green/build/Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/lxa_H/Documents/单片机Projects/car_green/car_green_Code/build/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

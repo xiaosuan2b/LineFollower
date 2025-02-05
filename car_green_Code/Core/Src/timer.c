@@ -1,16 +1,37 @@
+#include "timer.h"
+#include "tim.h"
+#include "config.h"
+#include "motor.h"
 
 unsigned long long _currentMillis = 0;
 
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+	// 每次 timerTIM 触发中断 （当前间隔设置为 10 ms）
+	// 写 count，重置 arr
+	if (htim == timerTIM) 
+	{
+		encoder_get_count();
+		
+		update10ms();
 
+	
+	}
 
-void update10ms(void)
+}
+
+void timer_Init(void)
+{
+	HAL_TIM_Base_Start_IT(timerTIM);
+}
+
+inline void update10ms(void)
 {
     _currentMillis += 10;
 }
 
-unsigned long long millis(void)
+inline unsigned long long millis(void)
 {
     return _currentMillis;
-
 }
 

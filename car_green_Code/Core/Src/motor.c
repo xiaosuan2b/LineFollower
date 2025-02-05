@@ -5,6 +5,7 @@
 #include "tim.h"
 #include "config.h"
 
+int speed = 99;
 
 #define MAX_SPEED 100
 
@@ -35,8 +36,15 @@ void motor_Init(void)
 
 // };
 
+void motor_set_duty(uint8_t whell, int duty)
+{
+    motor_set(whell, 100 * duty / MAX_DUTY);
+}
+
 void motor_set(uint8_t whell, int speed)
 {
+
+
     GPIO_TypeDef *IN1_GPIO_Port, *IN2_GPIO_Port;
     uint16_t IN1_Pin, IN2_Pin;
     TIM_HandleTypeDef *TIM; unsigned int CHANNEL;
@@ -53,6 +61,11 @@ void motor_set(uint8_t whell, int speed)
         IN1_GPIO_Port = AIN1_GPIO_Port;    IN1_Pin = AIN1_Pin;
         IN2_GPIO_Port = AIN2_GPIO_Port;    IN2_Pin = AIN2_Pin;
         TIM = PWMA_TIM; CHANNEL = PWMA_CH;
+    }else if (whell == 2) 
+    {
+        IN1_GPIO_Port = BIN1_GPIO_Port;    IN1_Pin = BIN1_Pin;
+        IN2_GPIO_Port = BIN2_GPIO_Port;    IN2_Pin = BIN2_Pin;
+        TIM = PWMB_TIM; CHANNEL = PWMB_CH;
     }
 
     /* Set Direction */
@@ -114,4 +127,49 @@ void motor_set_test(uint8_t whell, int speed)
 
 }
 
+
+/* 按钮功能 */
+
+void stop(void)
+{
+    motor_set(1, 0);
+    motor_set(2, 0);
+
+}
+
+void forward(void)
+{
+    motor_set(1, DEFAULT_FORWARD_SPEED);
+    motor_set(2, DEFAULT_FORWARD_SPEED);
+}
+
+void back(void)
+{
+    motor_set(1, DEFAULT_BACK_SPEED);
+    motor_set(2, DEFAULT_BACK_SPEED);
+}
+
+void leftward(void)
+{
+    motor_set(1, DEFAULT_FORWARD_SPEED/2);
+    motor_set(2, DEFAULT_FORWARD_SPEED);
+}
+
+void rightward(void)
+{
+    motor_set(1, DEFAULT_FORWARD_SPEED);
+    motor_set(2, DEFAULT_FORWARD_SPEED/2);
+}
+
+void left(void)
+{
+    motor_set(1, 0);
+    motor_set(2, DEFAULT_TURN_SPEED);
+}
+
+void right(void)
+{
+    motor_set(1, DEFAULT_TURN_SPEED);
+    motor_set(2, 0);
+}
 

@@ -25,5 +25,15 @@
     extern void motor_set_test(uint8_t whell, int speed);
 
 
+    /* 按钮功能*/
+    void stop(void);
+    void forward(void);
+    void back(void);
+    void leftward(void);
+    void rightward(void);
+    void left(void);
+    void right(void);
+
+    
 #endif
 

@@ -35,7 +35,7 @@ rule C_COMPILER__car_green_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__car_green_Debug
-  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130\tools\bin\arm-none-eabi-gcc.exe $FLAGS -mcpu=cortex-m3  -T "C:/Users/lxa_H/Documents/单片机Projects/car_green/stm32f103c8tx_flash.ld" --specs=nano.specs -Wl,-Map=car_green.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -Wl,--print-memory-usage $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130\tools\bin\arm-none-eabi-gcc.exe $FLAGS -mcpu=cortex-m3  -T "C:/Users/lxa_H/Documents/单片机Projects/car_green/car_green_Code/stm32f103c8tx_flash.ld" --specs=nano.specs -Wl,-Map=car_green.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -Wl,--print-memory-usage $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Env\Cmake\bin\cmake.exe --regenerate-during-build -SC:\Users\lxa_H\Documents\单片机Projects\car_green -BC:\Users\lxa_H\Documents\单片机Projects\car_green\build
+  command = C:\Env\Cmake\bin\cmake.exe --regenerate-during-build -SC:\Users\lxa_H\Documents\单片机Projects\car_green\car_green_Code -BC:\Users\lxa_H\Documents\单片机Projects\car_green\car_green_Code\build
   description = Re-running CMake...
   generator = 1
 

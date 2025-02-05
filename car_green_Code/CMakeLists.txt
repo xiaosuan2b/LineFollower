@@ -63,6 +63,11 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     ./Core/Src/motor.c
     ./Core/Src/timer.c
+    ./Core/Src/bluetooth.c
+    ./Core/Src/state_machine.c
+    ./Core/Src/follow.c
+    ./Core/Src/IRSensor.c
+    ./Core/Src/config.c
 )
 
 # Add include paths
