@@ -1,8 +1,13 @@
 #ifndef __PID_h_
 #define __PID_h_
+// #include "headfile.h"
+
+   
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #include <stdint.h>
-
 enum
 {
   POSITION_PID = 0,  // 位置式
@@ -23,12 +28,15 @@ typedef struct
 }pid_t;
 
 void pid_cal(pid_t *pid);
-void pid_control(void);
+void pid_set_target(pid_t *pid, float _tar);
 void pid_init(pid_t *pid, uint32_t mode, float p, float i, float d);
-void motor_target_set(int spe1, int spe2);
-void pidout_limit(pid_t *pid);
 
-extern pid_t motorA;
-extern pid_t motorB;
+
 extern pid_t angle;
+
+   
+#ifdef __cplusplus
+}
+#endif
+
 #endif

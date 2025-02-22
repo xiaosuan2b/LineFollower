@@ -66,7 +66,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "car_green::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-car_green-Debug-89f66d0752ef233c618e.json",
+					"jsonFile" : "target-car_green-Debug-427c4f497a2e5284b45d.json",
 					"name" : "car_green",
 					"projectIndex" : 0
 				}
@@ -76,7 +76,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/lxa_H/Documents/\u5355\u7247\u673aProjects/car_green/car_green_Code/build/Debug",
+		"build" : "C:/Users/lxa_H/Documents/\u5355\u7247\u673aProjects/car_green/car_green_Code/build",
 		"source" : "C:/Users/lxa_H/Documents/\u5355\u7247\u673aProjects/car_green/car_green_Code"
 	},
 	"version" : 

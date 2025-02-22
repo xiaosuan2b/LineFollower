@@ -4,10 +4,10 @@
 
 #include "tim.h"
 #include "config.h"
+#include <math.h>   
 
 int speed = 99;
 
-#define MAX_SPEED 100
 
 int count1 = 0;
 int count2 = 0;
@@ -91,41 +91,61 @@ void motor_set(uint8_t whell, int speed)
 void encoder_get_count(void)
 {
     count1 = __HAL_TIM_GetCounter(encoder1TIM);
-		// __HAL_TIM_SET_COUNTER(encoder1TIM, 0);
+		__HAL_TIM_SET_COUNTER(encoder1TIM, 0);
     count2 = __HAL_TIM_GetCounter(encoder2TIM);
-		// __HAL_TIM_SET_COUNTER(encoder2TIM, 0);
-}
+		__HAL_TIM_SET_COUNTER(encoder2TIM, 0);
 
 
-
-void motor_set_test(uint8_t whell, int speed)
-{
-    
-
-    if (speed > MAX_SPEED)
-        speed = MAX_SPEED;
-    else if (speed < -MAX_SPEED)
-        speed = -MAX_SPEED;
-
-    /* Set Direction */
-    if (speed >= 0)
+    if (count1 > (ARR_MAX/2)) 
     {
-        HAL_GPIO_WritePin(AIN1_GPIO_Port, AIN1_Pin, GPIO_PIN_SET);
-        HAL_GPIO_WritePin(AIN2_GPIO_Port, AIN2_Pin, GPIO_PIN_RESET);
-        
-    }else if (speed < 0) 
-    {
-        HAL_GPIO_WritePin(AIN1_GPIO_Port, AIN1_Pin, GPIO_PIN_RESET);
-        HAL_GPIO_WritePin(AIN2_GPIO_Port, AIN2_Pin, GPIO_PIN_SET);
+        count1 = ARR_MAX - count1;
     }
-
-    /* Set Speed */
-    __HAL_TIM_SET_COMPARE(PWMA_TIM, PWMA_CH, speed >= 0 ? speed : -speed);
-
-
-
-
+    if (count2 > (ARR_MAX/2)) 
+    {
+        count2 = ARR_MAX - count2;
+    }
 }
+
+int get_speed(int motor_num)
+{
+    switch (motor_num) 
+    {
+        case 1: return count1; break;   
+        case 2: return count2; break;
+
+        default: return NAN; break;
+    
+    }
+    
+    
+}
+
+float get_phy_speed(int motor_num)
+{
+    /**
+        @param int whell 轮胎编号
+        @return int phy_speed 物理速度 (mm/s)
+
+        电机减速比 30，GMR 编码器精度 500
+        转一圈编码器读数 15000
+        轮胎直径 65mm ，转一圈 204.2 mm
+        * 编码器: 距离mm 725 : 1 mm
+        10ms 采集一次数据 725 : 100 mm/s
+
+        * 最终：1mm/s 对应编码器读数：7.25
+     */
+     
+    switch (motor_num) 
+    {
+        case 1: return count1 / 7.25; break;   
+        case 2: return count2 / 7.25; break;
+
+        default: return NAN; break;
+    
+    }
+}
+
+
 
 
 /* 按钮功能 */

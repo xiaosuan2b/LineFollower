@@ -3,7 +3,16 @@
 #include "config.h"
 #include "motor.h"
 
+#include "pid_control.h"
+
+// #include "OLED.h"
+#include "oled_display.h"
+
+#include <stdio.h>
+
 unsigned long long _currentMillis = 0;
+
+int oledcnt = 0;
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
@@ -12,8 +21,17 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 	if (htim == timerTIM) 
 	{
 		encoder_get_count();
+
+		// pid_control();
 		
 		update10ms();
+
+
+		if (oledcnt >= 1000) 
+		{
+			oled_display_phy_speed();
+		}
+		
 
 	
 	}

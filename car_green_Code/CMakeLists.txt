@@ -30,6 +30,8 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
 
+enable_language(CXX)
+
 # Core project settings
 project(${CMAKE_PROJECT_NAME})
 message("Build type: " ${CMAKE_BUILD_TYPE})
@@ -44,10 +46,12 @@ add_subdirectory(cmake/stm32cubemx)
 target_link_options(${PROJECT_NAME} PRIVATE
     -Wl,-u,_printf_float   # 启用 printf 浮点格式化
     -Wl,-u,_sprintf_float  # 启用 sprintf 浮点格式化
+    # -specs=nosys.specs
 )
 
 # 添加链接器规范
 target_link_options(${PROJECT_NAME} PRIVATE
+    -lstdc++ 
     --specs=nosys.specs    # 不使用简化版库
     -lc                    # 链接标准 C 库
     -lm                    # 链接数学库（若需要）
@@ -65,9 +69,14 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     ./Core/Src/timer.c
     ./Core/Src/bluetooth.c
     ./Core/Src/state_machine.c
-    ./Core/Src/follow.c
-    ./Core/Src/IRSensor.c
+    ./Core/Src/follow.cpp
+    ./Core/Src/IRSensor.cpp
     ./Core/Src/config.c
+    ./Core/Src/pid.c
+    ./Core/Src/pid_control.cpp
+    ./Core/Src/OLED.c
+    ./Core/Src/oled_dispaly.c
+    
 )
 
 # Add include paths

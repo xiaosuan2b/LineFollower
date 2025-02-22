@@ -4,6 +4,9 @@
 #include "motor.h"
 #include "usart.h"
 #include "string.h"
+#include "follow.h" 
+#include "OLED.h"
+#include "config.h"
 
 int _state = 0;
 // 0: stop
@@ -12,16 +15,25 @@ int _state = 0;
 // 9: debug_get_count
 
 
+/* Private functions Declaration */
+void _standby_state(void);
+void _control_state(void);
+void _debug_get_count_state(void);
+void _follow_state(void);
+
 void next(void)
 {
+    // _debug_get_count_state();
 
     switch (_state) 
     {
-        case 0: _standby(); break;
-        case 9: _debug_get_count(); break;
-        case 2: _control(); break;
+        case 0: _standby_state(); break;
+        case 1: _follow_state(); break;
+        case 2: _control_state(); break;
+        case 9: _debug_get_count_state(); break;
 
-        default: _standby(); break;
+
+        default: _standby_state(); break;
     }
 
 }
@@ -34,6 +46,9 @@ void go_standby(void)
 
 void go_follow(void)
 {
+    reset_circle();
+    motor_set(1, BASIC_SPEED);
+    motor_set(2, BASIC_SPEED);
     _state = 1;
 }
 
@@ -43,19 +58,25 @@ void go_control(void)
     _state = 2;
 }
 
-void _standby(void)
+void _standby_state(void)
 {
+    
     stop();
     HAL_Delay(1000);
 
 }
 
-void _control(void)
+void _follow_state(void)
+{
+    follow3();
+}
+
+void _control_state(void)
 {
     HAL_Delay(1000);
 }
 
-void _debug_get_count(void)
+void _debug_get_count_state(void)
 {
     
     char str[50];

@@ -17,15 +17,30 @@
 
     #define encoder2TIM &htim4
 
+    #define ARR_MAX 65535
+
     #define MAX_DUTY 60000
 
-    #define DEFAULT_FORWARD_SPEED 50
-    #define DEFAULT_BACK_SPEED -30
-    #define DEFAULT_TURN_SPEED 30
+    #define MAX_SPEED 999
 
-    #define IR_SENSER_NUM 10
+    #define DEFAULT_FORWARD_SPEED 200
+    #define DEFAULT_BACK_SPEED -150
+    #define DEFAULT_TURN_SPEED 150
+
+    #define SINGLE_ADJUST_STEP 25
+
+    #define IR_SENSER_NUM 5
+
 
     extern const int ir_weight[];
+
+    // #define BASIC_SPEED 20
+
+    extern int BASIC_SPEED;
+
+    extern float BASIC_PHY_SPEED;
+
+    extern float Kp, Ki, Kd;
 
     
 

@@ -2,14 +2,21 @@
 
 #define _state_machine_h
 
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void go_standby(void);
 void go_follow(void);
+void go_control(void);
 
 void next(void);
 
-void _standby(void);
-void _control(void);
-void _debug_get_count(void);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
 

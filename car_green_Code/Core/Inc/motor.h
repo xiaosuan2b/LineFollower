@@ -1,6 +1,11 @@
 #ifndef _motor_h
     #define _motor_h
 
+    
+#ifdef __cplusplus
+extern "C" {
+#endif
+
     #include <stdint.h>
 
     extern int count1; // 电机1 
@@ -20,9 +25,11 @@
     extern void motor_set(uint8_t whell, int speed);
 
     extern void encoder_get_count(void);
+    int get_speed(int motor_num);
 
     
     extern void motor_set_test(uint8_t whell, int speed);
+    float get_phy_speed(int motor_num);
 
 
     /* 按钮功能*/
@@ -34,6 +41,11 @@
     void left(void);
     void right(void);
 
+
+
+#ifdef __cplusplus
+}
+#endif
     
 #endif
 

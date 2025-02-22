@@ -4,6 +4,8 @@
 #include "motor.h"
 #include "string.h"
 
+#include "state_machine.h"
+
 // const int N = 50;
 
 uint8_t BTMessage[1];
@@ -44,10 +46,13 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 
         if (command[0] == 'A') // 循迹模式
         {
+            go_follow();
             
         
         }else if (command[0] == 'C') // 按钮模式
         {
+            go_control();
+            
             switch (command[1]) 
             {
                 case 'W': forward(); break;
@@ -61,6 +66,15 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
                 default: stop(); break;
             }
 
+        
+        }else if (command[0] == 'J') // 调整模式
+        {
+            switch (command[1]) 
+            {
+                case 'U': BASIC_SPEED += SINGLE_ADJUST_STEP; break;
+                case 'D': BASIC_SPEED -= SINGLE_ADJUST_STEP; break;
+            
+            }
         
         }
 
@@ -76,7 +90,7 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 	// }
 
 
-	// HAL_UART_Transmit_DMA(&huart3, lst, sizeof(lst));
+	HAL_UART_Transmit_DMA(&huart3, (uint8_t*)command, strlen(command));
 
 	HAL_UARTEx_ReceiveToIdle_DMA(BTUART, BTReceiveData, sizeof(BTReceiveData));
 	__HAL_DMA_DISABLE_IT(BTDMA_USART_RX, DMA_IT_HT);

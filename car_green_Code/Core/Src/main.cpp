@@ -35,6 +35,9 @@
 #include <stdio.h>
 #include <string.h>
 #include "state_machine.h"
+#include "bluetooth.h"
+#include "follow.h"
+#include "OLED.h"
 
 /* USER CODE END Includes */
 
@@ -75,6 +78,8 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+
 
 
 // void motor_back_and_forward(void) {
@@ -138,6 +143,11 @@ int main(void)
 
 	timer_Init();
 	motor_Init();
+	bluetooth_Init();
+	follow_Init();
+	OLED_Init();
+
+	// OLED_ShowString(1, 1, "Hello World");
 
 
 
@@ -149,6 +159,22 @@ int main(void)
 	while (1) {
 
 		next();
+
+		// motor_set(1, 600);
+
+
+		
+		// reportIR();
+
+		// bluetooth_transmit_uint8_t(0b00100);
+
+		
+		// HAL_Delay(1000)	;
+
+		
+
+		// back();
+		// leftward();
 		
 		/* USER CODE END WHILE */
 
