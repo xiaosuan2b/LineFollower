@@ -22,6 +22,8 @@ int circle = 0;
 
 float dire = 0;
 
+pid_t f_pid; // follow pid
+
 
 // 存储状态对应的电机动力百分比
 // 状态用二进制数表示，左右电机百分比用 pair
@@ -41,6 +43,8 @@ float dire = 0;
 void follow_Init()
 {
     pid_control_Init();
+    pid_init(&f_pid, POSITION_PID, Kp_follow, Ki_follow, Kd_follow);
+    pid_set_target(&f_pid, ((IR_SENSER_NUM + 1) / 2));
 }
 
 
@@ -199,6 +203,22 @@ void follow3(void)
 
     auto irstate = get_IR();
 
+    if (irstate[0] == 1 && irstate[1] == 1 && irstate[2] == 1) 
+    {
+        motor_set(1, 0);
+        motor_set(2, BASIC_SPEED * 4 );
+        HAL_Delay(50);
+        return;
+    }
+
+    if (irstate[2] == 1 && irstate[3] == 1 && irstate[4] == 1) 
+    {
+        motor_set(1, BASIC_SPEED * 4);
+        motor_set(2, 0);
+        HAL_Delay(50);
+        return;
+    }
+
     if (irstate[0] != irstate[4]) 
     {
         if (irstate[0]) // 1 0 0 0 0
@@ -238,41 +258,55 @@ void follow3(void)
 
 void follow_pid(void)
 {
-
-    auto irstate = get_IR();
-
-    if (irstate[0] != irstate[4]) 
+    if (!ready_continue()) 
     {
-        if (irstate[0]) // 1 0 0 0 0
-        {
-            pid_set_phy_speed(1, BASIC_PHY_SPEED);
-            pid_set_phy_speed(2, BASIC_PHY_SPEED * 3 );
-        }else   // 0 0 0 0 1
-        {
-            pid_set_phy_speed(1, BASIC_PHY_SPEED * 3);
-            pid_set_phy_speed(2, BASIC_PHY_SPEED );
-        }
+        motor_set(1, 0);
+        motor_set(2, 0);
+        HAL_Delay(1000);
+        return;
+    }
+    int state = get_IR_Int();
 
-        HAL_Delay(20);
+    pid_set_now(&f_pid, state);
+    pid_cal(&f_pid);
+    int adjust = pid_get_out(&f_pid);
     
-    }else if (irstate[1] != irstate[3]) 
-    {
-        if (irstate[1]) // 0 1 0 0 0
-        {
-            pid_set_phy_speed(1, BASIC_PHY_SPEED);
-            pid_set_phy_speed(2, BASIC_PHY_SPEED + BASIC_PHY_SPEED / 2);
-        }else   // 0 0 0 1 0
-        {
-            pid_set_phy_speed(1, BASIC_PHY_SPEED + BASIC_PHY_SPEED /2);
-            pid_set_phy_speed(2, BASIC_PHY_SPEED);
-        }
-    }
-    else 
-    {
-        pid_set_phy_speed(1, BASIC_PHY_SPEED);
-        pid_set_phy_speed(2, BASIC_PHY_SPEED);
+
+
+
+    // auto irstate = get_IR();
+    // if (irstate[0] != irstate[4]) 
+    // {
+    //     if (irstate[0]) // 1 0 0 0 0
+    //     {
+    //         pid_set_phy_speed(1, BASIC_PHY_SPEED);
+    //         pid_set_phy_speed(2, BASIC_PHY_SPEED * 3 );
+    //     }else   // 0 0 0 0 1
+    //     {
+    //         pid_set_phy_speed(1, BASIC_PHY_SPEED * 3);
+    //         pid_set_phy_speed(2, BASIC_PHY_SPEED );
+    //     }
+
+    //     HAL_Delay(20);
+    
+    // }else if (irstate[1] != irstate[3]) 
+    // {
+    //     if (irstate[1]) // 0 1 0 0 0
+    //     {
+    //         pid_set_phy_speed(1, BASIC_PHY_SPEED);
+    //         pid_set_phy_speed(2, BASIC_PHY_SPEED + BASIC_PHY_SPEED / 2);
+    //     }else   // 0 0 0 1 0
+    //     {
+    //         pid_set_phy_speed(1, BASIC_PHY_SPEED + BASIC_PHY_SPEED /2);
+    //         pid_set_phy_speed(2, BASIC_PHY_SPEED);
+    //     }
+    // }
+    // else 
+    // {
+    //     pid_set_phy_speed(1, BASIC_PHY_SPEED);
+    //     pid_set_phy_speed(2, BASIC_PHY_SPEED);
         
-    }
+    // }
 
 
     

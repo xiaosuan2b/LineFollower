@@ -28,7 +28,9 @@ typedef struct
 }pid_t;
 
 void pid_cal(pid_t *pid);
+void pid_set_now(pid_t *pid, float _now);
 void pid_set_target(pid_t *pid, float _tar);
+float pid_get_out(pid_t *pid);
 void pid_init(pid_t *pid, uint32_t mode, float p, float i, float d);
 
 

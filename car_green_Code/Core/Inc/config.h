@@ -42,6 +42,8 @@
 
     extern float Kp, Ki, Kd;
 
+    extern float Kp_follow, Ki_follow, Kd_follow;
+
     
 
 

@@ -8,6 +8,8 @@
 
 #include <vector>
 std::vector<bool> get_IR(void);
+int get_IR_Int(void);
+
 
 extern "C" {
 #endif

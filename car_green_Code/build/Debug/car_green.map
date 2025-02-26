@@ -924,7 +924,7 @@ Discarded input sections
  .text.follow   0x00000000      0x16c CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
  .text.follow2  0x00000000      0x19c CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
  .text._Z10follow_pidv
-                0x00000000      0x1bc CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x00000000       0x68 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
  .debug_macro   0x00000000      0x227 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
  .debug_macro   0x00000000       0x22 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
@@ -977,6 +977,14 @@ Discarded input sections
  .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
@@ -1000,11 +1008,17 @@ Discarded input sections
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0x8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .group         0x00000000        0xc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
@@ -1082,10 +1096,14 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt14_Bit_referenceC2EPmm
                 0x00000000       0x24 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNKSt14_Bit_referencecvbEv
+                0x00000000       0x28 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt18_Bit_iterator_baseC2EPmj
                 0x00000000       0x24 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt18_Bit_iterator_base7_M_incrEi
                 0x00000000       0x62 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZStmiRKSt18_Bit_iterator_baseS1_
+                0x00000000       0x2e CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt13_Bit_iteratorC2Ev
                 0x00000000       0x1e CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt13_Bit_iteratorC2EPmj
@@ -1098,20 +1116,46 @@ Discarded input sections
                 0x00000000       0x30 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZStplRKSt13_Bit_iteratori
                 0x00000000       0x2a CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt19_Bit_const_iteratorC2EPmj
+                0x00000000       0x22 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt19_Bit_const_iteratorC2ERKSt13_Bit_iterator
+                0x00000000       0x24 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt13_Bvector_baseISaIbEE13_Bvector_implD2Ev
+                0x00000000       0x18 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._Z10get_IR_Intv
+                0x00000000       0x74 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt6vectorIbSaIbEED2Ev
+                0x00000000       0x1a CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt6vectorIbSaIbEEixEj
                 0x00000000       0x30 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSaImED2Ev
                 0x00000000       0x18 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt13_Bvector_baseISaIbEED2Ev
+                0x00000000       0x20 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNKSt6vectorIbSaIbEE4sizeEv
+                0x00000000       0x3a CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt6vectorIbSaIbEE5beginEv
                 0x00000000       0x20 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt15__new_allocatorImED2Ev
                 0x00000000       0x14 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt13_Bvector_baseISaIbEE13_M_deallocateEv
+                0x00000000       0x4a CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNKSt6vectorIbSaIbEE3endEv
+                0x00000000       0x1e CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNKSt6vectorIbSaIbEE5beginEv
+                0x00000000       0x20 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZSt11__addressofImEPT_RS0_
                 0x00000000       0x14 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNKSt13_Bvector_baseISaIbEE13_Bvector_impl11_M_end_addrEv
                 0x00000000       0x2c CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt13_Bvector_baseISaIbEE18_Bvector_impl_data8_M_resetEv
+                0x00000000       0x2a CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt16allocator_traitsISaImEE10deallocateERS0_Pmj
+                0x00000000       0x1e CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .text._ZNSt13_Bvector_baseISaIbEE18_Bvector_impl_dataC2Ev
                 0x00000000       0x2a CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .text._ZNSt15__new_allocatorImE10deallocateEPmj
+                0x00000000       0x1e CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .debug_macro   0x00000000      0xbe6 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .debug_macro   0x00000000      0x1d6 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .debug_macro   0x00000000       0x10 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
@@ -1202,8 +1246,10 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
  .data          0x00000000        0x0 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
  .bss           0x00000000        0x0 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
- .text.pid_set_target
+ .text.pid_set_now
                 0x00000000       0x1a CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+ .text.pid_get_out
+                0x00000000       0x16 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
  .text.pid_set_target_speed
                 0x00000000       0x1a CMakeFiles/car_green.dir/Core/Src/pid.c.obj
  .text.pid_cal  0x00000000      0x1c4 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
@@ -4502,7 +4548,7 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x08000000                g_pfnVectors
                 0x0800010c                        . = ALIGN (0x4)
 
-.text           0x08000110     0x9110
+.text           0x08000110     0x926c
                 0x08000110                        . = ALIGN (0x4)
  *(.text)
  .text          0x08000110       0x40 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -4853,719 +4899,721 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .text._ZStplRKSt13_Bit_iteratori
                 0x08003c7c       0x2a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
                 0x08003c7c                std::operator+(std::_Bit_iterator const&, int)
+ *fill*         0x08003ca6        0x2 
  .text.follow_Init
-                0x08003ca6        0xc CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08003ca6                follow_Init
- *fill*         0x08003cb2        0x2 
+                0x08003ca8       0x44 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08003ca8                follow_Init
  .text.reset_circle
-                0x08003cb4       0x18 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08003cb4                reset_circle
+                0x08003cec       0x18 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08003cec                reset_circle
  .text._Z14ready_continuev
-                0x08003ccc       0xb0 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08003ccc                ready_continue()
- .text.follow3  0x08003d7c      0x208 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08003d7c                follow3
+                0x08003d04       0xb0 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08003d04                ready_continue()
+ .text.follow3  0x08003db4      0x314 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08003db4                follow3
  .text._ZNSt6vectorIbSaIbEED2Ev
-                0x08003f84       0x1a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08003f84                std::vector<bool, std::allocator<bool> >::~vector()
-                0x08003f84                std::vector<bool, std::allocator<bool> >::~vector()
+                0x080040c8       0x1a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x080040c8                std::vector<bool, std::allocator<bool> >::~vector()
+                0x080040c8                std::vector<bool, std::allocator<bool> >::~vector()
  .text._ZNSt6vectorIbSaIbEEixEj
-                0x08003f9e       0x30 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08003f9e                std::vector<bool, std::allocator<bool> >::operator[](unsigned int)
+                0x080040e2       0x30 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x080040e2                std::vector<bool, std::allocator<bool> >::operator[](unsigned int)
  .text._ZNSt13_Bvector_baseISaIbEE13_Bvector_implD2Ev
-                0x08003fce       0x18 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08003fce                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl()
-                0x08003fce                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl()
+                0x08004112       0x18 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08004112                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl()
+                0x08004112                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::~_Bvector_impl()
  .text._ZNSt13_Bvector_baseISaIbEED2Ev
-                0x08003fe6       0x20 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08003fe6                std::_Bvector_base<std::allocator<bool> >::~_Bvector_base()
-                0x08003fe6                std::_Bvector_base<std::allocator<bool> >::~_Bvector_base()
+                0x0800412a       0x20 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x0800412a                std::_Bvector_base<std::allocator<bool> >::~_Bvector_base()
+                0x0800412a                std::_Bvector_base<std::allocator<bool> >::~_Bvector_base()
  .text._ZNSt6vectorIbSaIbEE5beginEv
-                0x08004006       0x20 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08004006                std::vector<bool, std::allocator<bool> >::begin()
+                0x0800414a       0x20 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x0800414a                std::vector<bool, std::allocator<bool> >::begin()
  .text._ZNSaImED2Ev
-                0x08004026       0x18 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08004026                std::allocator<unsigned long>::~allocator()
-                0x08004026                std::allocator<unsigned long>::~allocator()
+                0x0800416a       0x18 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x0800416a                std::allocator<unsigned long>::~allocator()
+                0x0800416a                std::allocator<unsigned long>::~allocator()
  .text._ZNSt13_Bvector_baseISaIbEE13_M_deallocateEv
-                0x0800403e       0x4a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x0800403e                std::_Bvector_base<std::allocator<bool> >::_M_deallocate()
+                0x08004182       0x4a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08004182                std::_Bvector_base<std::allocator<bool> >::_M_deallocate()
  .text._ZNSt15__new_allocatorImED2Ev
-                0x08004088       0x14 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08004088                std::__new_allocator<unsigned long>::~__new_allocator()
-                0x08004088                std::__new_allocator<unsigned long>::~__new_allocator()
+                0x080041cc       0x14 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x080041cc                std::__new_allocator<unsigned long>::~__new_allocator()
+                0x080041cc                std::__new_allocator<unsigned long>::~__new_allocator()
  .text._ZNKSt13_Bvector_baseISaIbEE13_Bvector_impl11_M_end_addrEv
-                0x0800409c       0x2c CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x0800409c                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const
+                0x080041e0       0x2c CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x080041e0                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_M_end_addr() const
  .text._ZNSt16allocator_traitsISaImEE10deallocateERS0_Pmj
-                0x080040c8       0x1e CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x080040c8                std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned int)
+                0x0800420c       0x1e CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x0800420c                std::allocator_traits<std::allocator<unsigned long> >::deallocate(std::allocator<unsigned long>&, unsigned long*, unsigned int)
  .text._ZNSt13_Bvector_baseISaIbEE18_Bvector_impl_data8_M_resetEv
-                0x080040e6       0x2a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x080040e6                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset()
+                0x0800422a       0x2a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x0800422a                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_M_reset()
  .text._ZSt11__addressofImEPT_RS0_
-                0x08004110       0x14 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08004110                unsigned long* std::__addressof<unsigned long>(unsigned long&)
+                0x08004254       0x14 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08004254                unsigned long* std::__addressof<unsigned long>(unsigned long&)
  .text._ZNSt15__new_allocatorImE10deallocateEPmj
-                0x08004124       0x1e CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08004124                std::__new_allocator<unsigned long>::deallocate(unsigned long*, unsigned int)
+                0x08004268       0x1e CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08004268                std::__new_allocator<unsigned long>::deallocate(unsigned long*, unsigned int)
  .text._ZNSt13_Bvector_baseISaIbEE18_Bvector_impl_dataC2Ev
-                0x08004142       0x2a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x08004142                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data()
-                0x08004142                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data()
+                0x08004286       0x2a CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x08004286                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data()
+                0x08004286                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl_data::_Bvector_impl_data()
  .text._ZNSt14_Bit_referenceaSEb
-                0x0800416c       0x46 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x0800416c                std::_Bit_reference::operator=(bool)
+                0x080042b0       0x46 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080042b0                std::_Bit_reference::operator=(bool)
  .text._ZSt16__fill_bvector_nPmjb
-                0x080041b2       0x30 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080041b2                std::__fill_bvector_n(unsigned long*, unsigned int, bool)
- *fill*         0x080041e2        0x2 
+                0x080042f6       0x30 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080042f6                std::__fill_bvector_n(unsigned long*, unsigned int, bool)
+ *fill*         0x08004326        0x2 
  .text._Z6get_IRv
-                0x080041e4       0x98 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080041e4                get_IR()
+                0x08004328       0x98 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x08004328                get_IR()
  .text._ZNSaIbEC2Ev
-                0x0800427c       0x18 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x0800427c                std::allocator<bool>::allocator()
-                0x0800427c                std::allocator<bool>::allocator()
+                0x080043c0       0x18 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080043c0                std::allocator<bool>::allocator()
+                0x080043c0                std::allocator<bool>::allocator()
  .text._ZNSaIbED2Ev
-                0x08004294       0x18 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x08004294                std::allocator<bool>::~allocator()
-                0x08004294                std::allocator<bool>::~allocator()
+                0x080043d8       0x18 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080043d8                std::allocator<bool>::~allocator()
+                0x080043d8                std::allocator<bool>::~allocator()
  .text._ZNSt6vectorIbSaIbEEC2EjRKbRKS0_
-                0x080042ac       0x36 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080042ac                std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&)
-                0x080042ac                std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&)
+                0x080043f0       0x36 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080043f0                std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&)
+                0x080043f0                std::vector<bool, std::allocator<bool> >::vector(unsigned int, bool const&, std::allocator<bool> const&)
  .text._ZNSt15__new_allocatorIbEC2Ev
-                0x080042e2       0x14 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080042e2                std::__new_allocator<bool>::__new_allocator()
-                0x080042e2                std::__new_allocator<bool>::__new_allocator()
+                0x08004426       0x14 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x08004426                std::__new_allocator<bool>::__new_allocator()
+                0x08004426                std::__new_allocator<bool>::__new_allocator()
  .text._ZNSt15__new_allocatorIbED2Ev
-                0x080042f6       0x14 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080042f6                std::__new_allocator<bool>::~__new_allocator()
-                0x080042f6                std::__new_allocator<bool>::~__new_allocator()
+                0x0800443a       0x14 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x0800443a                std::__new_allocator<bool>::~__new_allocator()
+                0x0800443a                std::__new_allocator<bool>::~__new_allocator()
  .text._ZNSt13_Bvector_baseISaIbEEC2ERKS0_
-                0x0800430a       0x38 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x0800430a                std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&)
-                0x0800430a                std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&)
+                0x0800444e       0x38 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x0800444e                std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&)
+                0x0800444e                std::_Bvector_base<std::allocator<bool> >::_Bvector_base(std::allocator<bool> const&)
  .text._ZNSt6vectorIbSaIbEE13_M_initializeEj
-                0x08004342       0x78 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x08004342                std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int)
+                0x08004486       0x78 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x08004486                std::vector<bool, std::allocator<bool> >::_M_initialize(unsigned int)
  .text._ZNSt6vectorIbSaIbEE19_M_initialize_valueEb
-                0x080043ba       0x3c CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080043ba                std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool)
+                0x080044fe       0x3c CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080044fe                std::vector<bool, std::allocator<bool> >::_M_initialize_value(bool)
  .text._ZNSaImEC2ERKS_
-                0x080043f6       0x1c CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080043f6                std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&)
-                0x080043f6                std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&)
+                0x0800453a       0x1c CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x0800453a                std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&)
+                0x0800453a                std::allocator<unsigned long>::allocator(std::allocator<unsigned long> const&)
  .text._ZNSaImEC2IbEERKSaIT_E
-                0x08004412       0x1a CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x08004412                std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&)
-                0x08004412                std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&)
+                0x08004556       0x1a CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x08004556                std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&)
+                0x08004556                std::allocator<unsigned long>::allocator<bool>(std::allocator<bool> const&)
  .text._ZNSt13_Bvector_baseISaIbEE13_Bvector_implC2ERKSaImE
-                0x0800442c       0x24 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x0800442c                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&)
-                0x0800442c                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&)
+                0x08004570       0x24 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x08004570                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&)
+                0x08004570                std::_Bvector_base<std::allocator<bool> >::_Bvector_impl::_Bvector_impl(std::allocator<unsigned long> const&)
  .text._ZNSt13_Bvector_baseISaIbEE11_M_allocateEj
-                0x08004450       0x28 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x08004450                std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned int)
+                0x08004594       0x28 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x08004594                std::_Bvector_base<std::allocator<bool> >::_M_allocate(unsigned int)
  .text._ZNSt13_Bvector_baseISaIbEE8_S_nwordEj
-                0x08004478       0x18 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x08004478                std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned int)
+                0x080045bc       0x18 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080045bc                std::_Bvector_base<std::allocator<bool> >::_S_nword(unsigned int)
  .text._ZNSt15__new_allocatorImEC2ERKS0_
-                0x08004490       0x16 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x08004490                std::__new_allocator<unsigned long>::__new_allocator(std::__new_allocator<unsigned long> const&)
-                0x08004490                std::__new_allocator<unsigned long>::__new_allocator(std::__new_allocator<unsigned long> const&)
+                0x080045d4       0x16 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080045d4                std::__new_allocator<unsigned long>::__new_allocator(std::__new_allocator<unsigned long> const&)
+                0x080045d4                std::__new_allocator<unsigned long>::__new_allocator(std::__new_allocator<unsigned long> const&)
  .text._ZNSt15__new_allocatorImEC2Ev
-                0x080044a6       0x14 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080044a6                std::__new_allocator<unsigned long>::__new_allocator()
-                0x080044a6                std::__new_allocator<unsigned long>::__new_allocator()
+                0x080045ea       0x14 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080045ea                std::__new_allocator<unsigned long>::__new_allocator()
+                0x080045ea                std::__new_allocator<unsigned long>::__new_allocator()
  .text._ZNSt16allocator_traitsISaImEE8allocateERS0_j
-                0x080044ba       0x1e CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080044ba                std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned int)
+                0x080045fe       0x1e CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x080045fe                std::allocator_traits<std::allocator<unsigned long> >::allocate(std::allocator<unsigned long>&, unsigned int)
  .text._ZNSt15__new_allocatorImE8allocateEjPKv
-                0x080044d8       0x54 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x080044d8                std::__new_allocator<unsigned long>::allocate(unsigned int, void const*)
+                0x0800461c       0x54 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x0800461c                std::__new_allocator<unsigned long>::allocate(unsigned int, void const*)
  .text._ZNKSt15__new_allocatorImE11_M_max_sizeEv
-                0x0800452c       0x16 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                0x0800452c                std::__new_allocator<unsigned long>::_M_max_size() const
+                0x08004670       0x16 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x08004670                std::__new_allocator<unsigned long>::_M_max_size() const
  .text.pid_init
-                0x08004542       0x38 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
-                0x08004542                pid_init
- *fill*         0x0800457a        0x2 
+                0x08004686       0x38 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+                0x08004686                pid_init
+ .text.pid_set_target
+                0x080046be       0x1a CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+                0x080046be                pid_set_target
  .text._Z16pid_control_Initv
-                0x0800457c       0x50 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
-                0x0800457c                pid_control_Init()
+                0x080046d8       0x50 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+                0x080046d8                pid_control_Init()
  .text.OLED_I2C_Init
-                0x080045cc       0x60 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x080045cc                OLED_I2C_Init
+                0x08004728       0x60 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x08004728                OLED_I2C_Init
  .text.OLED_I2C_Start
-                0x0800462c       0x3c CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x0800462c                OLED_I2C_Start
+                0x08004788       0x3c CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x08004788                OLED_I2C_Start
  .text.OLED_I2C_Stop
-                0x08004668       0x30 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x08004668                OLED_I2C_Stop
+                0x080047c4       0x30 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x080047c4                OLED_I2C_Stop
  .text.OLED_I2C_SendByte
-                0x08004698       0x78 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x08004698                OLED_I2C_SendByte
+                0x080047f4       0x78 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x080047f4                OLED_I2C_SendByte
  .text.OLED_WriteCommand
-                0x08004710       0x2e CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x08004710                OLED_WriteCommand
+                0x0800486c       0x2e CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x0800486c                OLED_WriteCommand
  .text.OLED_WriteData
-                0x0800473e       0x2e CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x0800473e                OLED_WriteData
+                0x0800489a       0x2e CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x0800489a                OLED_WriteData
  .text.OLED_SetCursor
-                0x0800476c       0x46 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x0800476c                OLED_SetCursor
+                0x080048c8       0x46 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x080048c8                OLED_SetCursor
  .text.OLED_Clear
-                0x080047b2       0x46 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x080047b2                OLED_Clear
+                0x0800490e       0x46 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x0800490e                OLED_Clear
  .text.OLED_ShowChar
-                0x080047f8       0xb4 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x080047f8                OLED_ShowChar
+                0x08004954       0xb4 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x08004954                OLED_ShowChar
  .text.OLED_ShowString
-                0x080048ac       0x4a CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x080048ac                OLED_ShowString
+                0x08004a08       0x4a CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x08004a08                OLED_ShowString
  .text.OLED_Init
-                0x080048f6       0xc8 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x080048f6                OLED_Init
- *fill*         0x080049be        0x2 
+                0x08004a52       0xc8 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x08004a52                OLED_Init
+ *fill*         0x08004b1a        0x2 
  .text.oled_display_phy_speed
-                0x080049c0       0x74 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
-                0x080049c0                oled_display_phy_speed
- .text.main     0x08004a34       0x46 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
-                0x08004a34                main
+                0x08004b1c       0x74 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+                0x08004b1c                oled_display_phy_speed
+ .text.main     0x08004b90       0x46 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+                0x08004b90                main
  .text._Z18SystemClock_Configv
-                0x08004a7a       0x9e CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
-                0x08004a7a                SystemClock_Config()
+                0x08004bd6       0x9e CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+                0x08004bd6                SystemClock_Config()
  .text.Error_Handler
-                0x08004b18        0xc CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
-                0x08004b18                Error_Handler
+                0x08004c74        0xc CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+                0x08004c74                Error_Handler
  .text.MX_GPIO_Init
-                0x08004b24      0x11c CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
-                0x08004b24                MX_GPIO_Init
+                0x08004c80      0x11c CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
+                0x08004c80                MX_GPIO_Init
  .text.MX_DMA_Init
-                0x08004c40       0x4c CMakeFiles/car_green.dir/Core/Src/dma.c.obj
-                0x08004c40                MX_DMA_Init
+                0x08004d9c       0x4c CMakeFiles/car_green.dir/Core/Src/dma.c.obj
+                0x08004d9c                MX_DMA_Init
  .text.MX_I2C1_Init
-                0x08004c8c       0x5c CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
-                0x08004c8c                MX_I2C1_Init
+                0x08004de8       0x5c CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+                0x08004de8                MX_I2C1_Init
  .text.HAL_I2C_MspInit
-                0x08004ce8       0xa0 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
-                0x08004ce8                HAL_I2C_MspInit
+                0x08004e44       0xa0 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+                0x08004e44                HAL_I2C_MspInit
  .text.MX_TIM1_Init
-                0x08004d88       0xa0 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x08004d88                MX_TIM1_Init
+                0x08004ee4       0xa0 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x08004ee4                MX_TIM1_Init
  .text.MX_TIM2_Init
-                0x08004e28      0x100 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x08004e28                MX_TIM2_Init
+                0x08004f84      0x100 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x08004f84                MX_TIM2_Init
  .text.MX_TIM3_Init
-                0x08004f28       0xa8 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x08004f28                MX_TIM3_Init
+                0x08005084       0xa8 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x08005084                MX_TIM3_Init
  .text.MX_TIM4_Init
-                0x08004fd0       0xa8 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x08004fd0                MX_TIM4_Init
+                0x0800512c       0xa8 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x0800512c                MX_TIM4_Init
  .text.HAL_TIM_Base_MspInit
-                0x08005078       0x70 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x08005078                HAL_TIM_Base_MspInit
+                0x080051d4       0x70 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x080051d4                HAL_TIM_Base_MspInit
  .text.HAL_TIM_Encoder_MspInit
-                0x080050e8       0xd8 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x080050e8                HAL_TIM_Encoder_MspInit
+                0x08005244       0xd8 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x08005244                HAL_TIM_Encoder_MspInit
  .text.HAL_TIM_MspPostInit
-                0x080051c0       0x60 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x080051c0                HAL_TIM_MspPostInit
+                0x0800531c       0x60 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x0800531c                HAL_TIM_MspPostInit
  .text.MX_USART3_UART_Init
-                0x08005220       0x54 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
-                0x08005220                MX_USART3_UART_Init
+                0x0800537c       0x54 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+                0x0800537c                MX_USART3_UART_Init
  .text.HAL_UART_MspInit
-                0x08005274      0x154 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
-                0x08005274                HAL_UART_MspInit
+                0x080053d0      0x154 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+                0x080053d0                HAL_UART_MspInit
  .text.NMI_Handler
-                0x080053c8        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080053c8                NMI_Handler
+                0x08005524        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08005524                NMI_Handler
  .text.HardFault_Handler
-                0x080053d0        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080053d0                HardFault_Handler
+                0x0800552c        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800552c                HardFault_Handler
  .text.MemManage_Handler
-                0x080053d8        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080053d8                MemManage_Handler
+                0x08005534        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08005534                MemManage_Handler
  .text.BusFault_Handler
-                0x080053e0        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080053e0                BusFault_Handler
+                0x0800553c        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800553c                BusFault_Handler
  .text.UsageFault_Handler
-                0x080053e8        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080053e8                UsageFault_Handler
+                0x08005544        0x8 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08005544                UsageFault_Handler
  .text.SVC_Handler
-                0x080053f0        0xc CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080053f0                SVC_Handler
+                0x0800554c        0xc CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800554c                SVC_Handler
  .text.DebugMon_Handler
-                0x080053fc        0xc CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080053fc                DebugMon_Handler
+                0x08005558        0xc CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08005558                DebugMon_Handler
  .text.PendSV_Handler
-                0x08005408        0xc CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08005408                PendSV_Handler
+                0x08005564        0xc CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08005564                PendSV_Handler
  .text.SysTick_Handler
-                0x08005414        0xc CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08005414                SysTick_Handler
+                0x08005570        0xc CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08005570                SysTick_Handler
  .text.EXTI1_IRQHandler
-                0x08005420        0xe CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08005420                EXTI1_IRQHandler
- *fill*         0x0800542e        0x2 
+                0x0800557c        0xe CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800557c                EXTI1_IRQHandler
+ *fill*         0x0800558a        0x2 
  .text.DMA1_Channel2_IRQHandler
-                0x08005430       0x14 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08005430                DMA1_Channel2_IRQHandler
+                0x0800558c       0x14 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800558c                DMA1_Channel2_IRQHandler
  .text.DMA1_Channel3_IRQHandler
-                0x08005444       0x14 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08005444                DMA1_Channel3_IRQHandler
+                0x080055a0       0x14 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080055a0                DMA1_Channel3_IRQHandler
  .text.TIM1_UP_IRQHandler
-                0x08005458       0x14 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08005458                TIM1_UP_IRQHandler
+                0x080055b4       0x14 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080055b4                TIM1_UP_IRQHandler
  .text.USART3_IRQHandler
-                0x0800546c       0x14 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800546c                USART3_IRQHandler
+                0x080055c8       0x14 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080055c8                USART3_IRQHandler
  .text.HAL_MspInit
-                0x08005480       0x64 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08005480                HAL_MspInit
+                0x080055dc       0x64 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x080055dc                HAL_MspInit
  .text.HAL_I2C_Init
-                0x080054e4      0x288 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-                0x080054e4                HAL_I2C_Init
+                0x08005640      0x288 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x08005640                HAL_I2C_Init
  .text.HAL_Init
-                0x0800576c       0x2c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0800576c                HAL_Init
+                0x080058c8       0x2c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080058c8                HAL_Init
  .text.HAL_InitTick
-                0x08005798       0x60 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08005798                HAL_InitTick
+                0x080058f4       0x60 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080058f4                HAL_InitTick
  .text.HAL_IncTick
-                0x080057f8       0x24 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080057f8                HAL_IncTick
+                0x08005954       0x24 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08005954                HAL_IncTick
  .text.HAL_GetTick
-                0x0800581c       0x14 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0800581c                HAL_GetTick
+                0x08005978       0x14 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08005978                HAL_GetTick
  .text.HAL_Delay
-                0x08005830       0x48 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08005830                HAL_Delay
+                0x0800598c       0x48 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0800598c                HAL_Delay
  .text.HAL_RCC_OscConfig
-                0x08005878      0x504 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08005878                HAL_RCC_OscConfig
+                0x080059d4      0x504 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080059d4                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08005d7c      0x1d4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08005d7c                HAL_RCC_ClockConfig
+                0x08005ed8      0x1d4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08005ed8                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08005f50       0xa8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08005f50                HAL_RCC_GetSysClockFreq
+                0x080060ac       0xa8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080060ac                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x08005ff8       0x14 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08005ff8                HAL_RCC_GetHCLKFreq
+                0x08006154       0x14 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08006154                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0800600c       0x28 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x0800600c                HAL_RCC_GetPCLK1Freq
+                0x08006168       0x28 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08006168                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08006034       0x28 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08006034                HAL_RCC_GetPCLK2Freq
+                0x08006190       0x28 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08006190                HAL_RCC_GetPCLK2Freq
  .text.RCC_Delay
-                0x0800605c       0x3c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080061b8       0x3c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_GPIO_Init
-                0x08006098      0x308 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08006098                HAL_GPIO_Init
+                0x080061f4      0x308 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x080061f4                HAL_GPIO_Init
  .text.HAL_GPIO_ReadPin
-                0x080063a0       0x2e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x080063a0                HAL_GPIO_ReadPin
+                0x080064fc       0x2e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x080064fc                HAL_GPIO_ReadPin
  .text.HAL_GPIO_WritePin
-                0x080063ce       0x30 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x080063ce                HAL_GPIO_WritePin
- *fill*         0x080063fe        0x2 
+                0x0800652a       0x30 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0800652a                HAL_GPIO_WritePin
+ *fill*         0x0800655a        0x2 
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x08006400       0x30 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08006400                HAL_GPIO_EXTI_IRQHandler
+                0x0800655c       0x30 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0800655c                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_GPIO_EXTI_Callback
-                0x08006430       0x14 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08006430                HAL_GPIO_EXTI_Callback
+                0x0800658c       0x14 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0800658c                HAL_GPIO_EXTI_Callback
  .text.HAL_DMA_Init
-                0x08006444       0xb4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08006444                HAL_DMA_Init
+                0x080065a0       0xb4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x080065a0                HAL_DMA_Init
  .text.HAL_DMA_Start_IT
-                0x080064f8       0xc0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x080064f8                HAL_DMA_Start_IT
+                0x08006654       0xc0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x08006654                HAL_DMA_Start_IT
  .text.HAL_DMA_Abort
-                0x080065b8       0x76 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x080065b8                HAL_DMA_Abort
- *fill*         0x0800662e        0x2 
+                0x08006714       0x76 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x08006714                HAL_DMA_Abort
+ *fill*         0x0800678a        0x2 
  .text.HAL_DMA_Abort_IT
-                0x08006630       0xf0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08006630                HAL_DMA_Abort_IT
+                0x0800678c       0xf0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0800678c                HAL_DMA_Abort_IT
  .text.HAL_DMA_IRQHandler
-                0x08006720      0x20c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08006720                HAL_DMA_IRQHandler
+                0x0800687c      0x20c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x0800687c                HAL_DMA_IRQHandler
  .text.DMA_SetConfig
-                0x0800692c       0x5a CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- *fill*         0x08006986        0x2 
+                0x08006a88       0x5a CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ *fill*         0x08006ae2        0x2 
  .text.__NVIC_SetPriorityGrouping
-                0x08006988       0x48 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006ae4       0x48 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x080069d0       0x1c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006b2c       0x1c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_EnableIRQ
-                0x080069ec       0x38 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006b48       0x38 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x08006a24       0x54 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006b80       0x54 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x08006a78       0x64 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006bd4       0x64 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x08006adc       0x44 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006c38       0x44 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08006b20       0x16 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08006b20                HAL_NVIC_SetPriorityGrouping
+                0x08006c7c       0x16 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006c7c                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08006b36       0x38 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08006b36                HAL_NVIC_SetPriority
+                0x08006c92       0x38 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006c92                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08006b6e       0x1c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08006b6e                HAL_NVIC_EnableIRQ
+                0x08006cca       0x1c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006cca                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08006b8a       0x18 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08006b8a                HAL_SYSTICK_Config
+                0x08006ce6       0x18 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08006ce6                HAL_SYSTICK_Config
  .text.HAL_TIM_Base_Init
-                0x08006ba2       0x9e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08006ba2                HAL_TIM_Base_Init
+                0x08006cfe       0x9e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08006cfe                HAL_TIM_Base_Init
  .text.HAL_TIM_Base_Start_IT
-                0x08006c40       0xa4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08006c40                HAL_TIM_Base_Start_IT
+                0x08006d9c       0xa4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08006d9c                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_PWM_Init
-                0x08006ce4       0x9e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08006ce4                HAL_TIM_PWM_Init
+                0x08006e40       0x9e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08006e40                HAL_TIM_PWM_Init
  .text.HAL_TIM_PWM_MspInit
-                0x08006d82       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08006d82                HAL_TIM_PWM_MspInit
+                0x08006ede       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08006ede                HAL_TIM_PWM_MspInit
  .text.HAL_TIM_PWM_Start
-                0x08006d94      0x144 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08006d94                HAL_TIM_PWM_Start
+                0x08006ef0      0x144 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08006ef0                HAL_TIM_PWM_Start
  .text.HAL_TIM_Encoder_Init
-                0x08006ed8      0x144 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08006ed8                HAL_TIM_Encoder_Init
+                0x08007034      0x144 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007034                HAL_TIM_Encoder_Init
  .text.HAL_TIM_Encoder_Start
-                0x0800701c      0x11c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800701c                HAL_TIM_Encoder_Start
+                0x08007178      0x11c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007178                HAL_TIM_Encoder_Start
  .text.HAL_TIM_IRQHandler
-                0x08007138      0x1e0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08007138                HAL_TIM_IRQHandler
+                0x08007294      0x1e0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007294                HAL_TIM_IRQHandler
  .text.HAL_TIM_PWM_ConfigChannel
-                0x08007318      0x184 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08007318                HAL_TIM_PWM_ConfigChannel
+                0x08007474      0x184 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007474                HAL_TIM_PWM_ConfigChannel
  .text.HAL_TIM_ConfigClockSource
-                0x0800749c      0x18e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800749c                HAL_TIM_ConfigClockSource
+                0x080075f8      0x18e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080075f8                HAL_TIM_ConfigClockSource
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x0800762a       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800762a                HAL_TIM_OC_DelayElapsedCallback
+                0x08007786       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007786                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x0800763c       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800763c                HAL_TIM_IC_CaptureCallback
+                0x08007798       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007798                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x0800764e       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800764e                HAL_TIM_PWM_PulseFinishedCallback
+                0x080077aa       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080077aa                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x08007660       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08007660                HAL_TIM_TriggerCallback
- *fill*         0x08007672        0x2 
+                0x080077bc       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080077bc                HAL_TIM_TriggerCallback
+ *fill*         0x080077ce        0x2 
  .text.TIM_Base_SetConfig
-                0x08007674       0xdc CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08007674                TIM_Base_SetConfig
+                0x080077d0       0xdc CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080077d0                TIM_Base_SetConfig
  .text.TIM_OC1_SetConfig
-                0x08007750       0xcc CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x080078ac       0xcc CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_OC2_SetConfig
-                0x0800781c       0xd4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x0800781c                TIM_OC2_SetConfig
+                0x08007978       0xd4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007978                TIM_OC2_SetConfig
  .text.TIM_OC3_SetConfig
-                0x080078f0       0xd4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007a4c       0xd4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x080079c4       0x9c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007b20       0x9c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_TI1_ConfigInputStage
-                0x08007a60       0x5c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007bbc       0x5c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x08007abc       0x5e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007c18       0x5e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x08007b1a       0x34 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007c76       0x34 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .text.TIM_ETR_SetConfig
-                0x08007b4e       0x3e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08007b4e                TIM_ETR_SetConfig
+                0x08007caa       0x3e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007caa                TIM_ETR_SetConfig
  .text.TIM_CCxChannelCmd
-                0x08007b8c       0x48 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-                0x08007b8c                TIM_CCxChannelCmd
+                0x08007ce8       0x48 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x08007ce8                TIM_CCxChannelCmd
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x08007bd4       0xbc CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x08007bd4                HAL_TIMEx_MasterConfigSynchronization
+                0x08007d30       0xbc CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x08007d30                HAL_TIMEx_MasterConfigSynchronization
  .text.HAL_TIMEx_CommutCallback
-                0x08007c90       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x08007c90                HAL_TIMEx_CommutCallback
+                0x08007dec       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x08007dec                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x08007ca2       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-                0x08007ca2                HAL_TIMEx_BreakCallback
+                0x08007dfe       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x08007dfe                HAL_TIMEx_BreakCallback
  .text.HAL_UART_Init
-                0x08007cb4       0xa0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08007cb4                HAL_UART_Init
+                0x08007e10       0xa0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08007e10                HAL_UART_Init
  .text.HAL_UART_Transmit_DMA
-                0x08007d54       0xe0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08007d54                HAL_UART_Transmit_DMA
+                0x08007eb0       0xe0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08007eb0                HAL_UART_Transmit_DMA
  .text.HAL_UARTEx_ReceiveToIdle_DMA
-                0x08007e34       0xb2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08007e34                HAL_UARTEx_ReceiveToIdle_DMA
- *fill*         0x08007ee6        0x2 
+                0x08007f90       0xb2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08007f90                HAL_UARTEx_ReceiveToIdle_DMA
+ *fill*         0x08008042        0x2 
  .text.HAL_UART_IRQHandler
-                0x08007ee8      0x524 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08007ee8                HAL_UART_IRQHandler
+                0x08008044      0x524 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008044                HAL_UART_IRQHandler
  .text.HAL_UART_TxCpltCallback
-                0x0800840c       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0800840c                HAL_UART_TxCpltCallback
+                0x08008568       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008568                HAL_UART_TxCpltCallback
  .text.HAL_UART_TxHalfCpltCallback
-                0x0800841e       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x0800841e                HAL_UART_TxHalfCpltCallback
+                0x0800857a       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800857a                HAL_UART_TxHalfCpltCallback
  .text.HAL_UART_RxCpltCallback
-                0x08008430       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08008430                HAL_UART_RxCpltCallback
+                0x0800858c       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800858c                HAL_UART_RxCpltCallback
  .text.HAL_UART_RxHalfCpltCallback
-                0x08008442       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08008442                HAL_UART_RxHalfCpltCallback
+                0x0800859e       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800859e                HAL_UART_RxHalfCpltCallback
  .text.HAL_UART_ErrorCallback
-                0x08008454       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08008454                HAL_UART_ErrorCallback
+                0x080085b0       0x12 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080085b0                HAL_UART_ErrorCallback
  .text.UART_DMATransmitCplt
-                0x08008466       0x9a CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080085c2       0x9a CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMATxHalfCplt
-                0x08008500       0x1c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800865c       0x1c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAReceiveCplt
-                0x0800851c      0x12c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008678      0x12c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMARxHalfCplt
-                0x08008648       0x3c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080087a4       0x3c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAError
-                0x08008684       0x94 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080087e0       0x94 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Start_Receive_DMA
-                0x08008718      0x134 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08008718                UART_Start_Receive_DMA
+                0x08008874      0x134 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008874                UART_Start_Receive_DMA
  .text.UART_EndTxTransfer
-                0x0800884c       0x4e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080089a8       0x4e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndRxTransfer
-                0x0800889a       0xc4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080089f6       0xc4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_DMAAbortOnError
-                0x0800895e       0x28 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008aba       0x28 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x08008986       0x9e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008ae2       0x9e CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_EndTransmit_IT
-                0x08008a24       0x30 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008b80       0x30 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Receive_IT
-                0x08008a54      0x17c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008bb0      0x17c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x08008bd0      0x11c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08008d2c      0x11c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.SystemInit
-                0x08008cec        0xc CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08008cec                SystemInit
- .text._sbrk    0x08008cf8       0x6c CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
-                0x08008cf8                _sbrk
- .text._getpid  0x08008d64        0xe CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008d64                _getpid
- .text._kill    0x08008d72       0x20 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008d72                _kill
- .text._exit    0x08008d92       0x16 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008d92                _exit
- .text._read    0x08008da8       0x3a CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008da8                _read
- .text._write   0x08008de2       0x38 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008de2                _write
- .text._close   0x08008e1a       0x16 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008e1a                _close
- .text._fstat   0x08008e30       0x1e CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008e30                _fstat
- .text._isatty  0x08008e4e       0x14 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008e4e                _isatty
- .text._lseek   0x08008e62       0x18 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
-                0x08008e62                _lseek
- *fill*         0x08008e7a        0x2 
+                0x08008e48        0xc CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08008e48                SystemInit
+ .text._sbrk    0x08008e54       0x6c CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+                0x08008e54                _sbrk
+ .text._getpid  0x08008ec0        0xe CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008ec0                _getpid
+ .text._kill    0x08008ece       0x20 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008ece                _kill
+ .text._exit    0x08008eee       0x16 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008eee                _exit
+ .text._read    0x08008f04       0x3a CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008f04                _read
+ .text._write   0x08008f3e       0x38 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008f3e                _write
+ .text._close   0x08008f76       0x16 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008f76                _close
+ .text._fstat   0x08008f8c       0x1e CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008f8c                _fstat
+ .text._isatty  0x08008faa       0x14 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008faa                _isatty
+ .text._lseek   0x08008fbe       0x18 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x08008fbe                _lseek
+ *fill*         0x08008fd6        0x2 
  .text.Reset_Handler
-                0x08008e7c       0x48 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
-                0x08008e7c                Reset_Handler
+                0x08008fd8       0x48 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
+                0x08008fd8                Reset_Handler
  .text.Default_Handler
-                0x08008ec4        0x2 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
-                0x08008ec4                RTC_Alarm_IRQHandler
-                0x08008ec4                EXTI2_IRQHandler
-                0x08008ec4                TIM1_CC_IRQHandler
-                0x08008ec4                PVD_IRQHandler
-                0x08008ec4                EXTI3_IRQHandler
-                0x08008ec4                EXTI0_IRQHandler
-                0x08008ec4                I2C2_EV_IRQHandler
-                0x08008ec4                ADC1_2_IRQHandler
-                0x08008ec4                SPI1_IRQHandler
-                0x08008ec4                TAMPER_IRQHandler
-                0x08008ec4                DMA1_Channel4_IRQHandler
-                0x08008ec4                RTC_IRQHandler
-                0x08008ec4                DMA1_Channel7_IRQHandler
-                0x08008ec4                CAN1_RX1_IRQHandler
-                0x08008ec4                TIM4_IRQHandler
-                0x08008ec4                I2C1_EV_IRQHandler
-                0x08008ec4                DMA1_Channel6_IRQHandler
-                0x08008ec4                TIM3_IRQHandler
-                0x08008ec4                RCC_IRQHandler
-                0x08008ec4                TIM1_TRG_COM_IRQHandler
-                0x08008ec4                DMA1_Channel1_IRQHandler
-                0x08008ec4                Default_Handler
-                0x08008ec4                EXTI15_10_IRQHandler
-                0x08008ec4                EXTI9_5_IRQHandler
-                0x08008ec4                SPI2_IRQHandler
-                0x08008ec4                DMA1_Channel5_IRQHandler
-                0x08008ec4                EXTI4_IRQHandler
-                0x08008ec4                USB_LP_CAN1_RX0_IRQHandler
-                0x08008ec4                USB_HP_CAN1_TX_IRQHandler
-                0x08008ec4                WWDG_IRQHandler
-                0x08008ec4                TIM2_IRQHandler
-                0x08008ec4                TIM1_BRK_IRQHandler
-                0x08008ec4                USART2_IRQHandler
-                0x08008ec4                I2C2_ER_IRQHandler
-                0x08008ec4                CAN1_SCE_IRQHandler
-                0x08008ec4                FLASH_IRQHandler
-                0x08008ec4                USART1_IRQHandler
-                0x08008ec4                I2C1_ER_IRQHandler
-                0x08008ec4                USBWakeUp_IRQHandler
- .text._ZdlPvj  0x08008ec6        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(del_ops.o)
-                0x08008ec6                operator delete(void*, unsigned int)
- .text._Znwj    0x08008eca       0x22 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_op.o)
-                0x08008eca                operator new(unsigned int)
+                0x08009020        0x2 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
+                0x08009020                RTC_Alarm_IRQHandler
+                0x08009020                EXTI2_IRQHandler
+                0x08009020                TIM1_CC_IRQHandler
+                0x08009020                PVD_IRQHandler
+                0x08009020                EXTI3_IRQHandler
+                0x08009020                EXTI0_IRQHandler
+                0x08009020                I2C2_EV_IRQHandler
+                0x08009020                ADC1_2_IRQHandler
+                0x08009020                SPI1_IRQHandler
+                0x08009020                TAMPER_IRQHandler
+                0x08009020                DMA1_Channel4_IRQHandler
+                0x08009020                RTC_IRQHandler
+                0x08009020                DMA1_Channel7_IRQHandler
+                0x08009020                CAN1_RX1_IRQHandler
+                0x08009020                TIM4_IRQHandler
+                0x08009020                I2C1_EV_IRQHandler
+                0x08009020                DMA1_Channel6_IRQHandler
+                0x08009020                TIM3_IRQHandler
+                0x08009020                RCC_IRQHandler
+                0x08009020                TIM1_TRG_COM_IRQHandler
+                0x08009020                DMA1_Channel1_IRQHandler
+                0x08009020                Default_Handler
+                0x08009020                EXTI15_10_IRQHandler
+                0x08009020                EXTI9_5_IRQHandler
+                0x08009020                SPI2_IRQHandler
+                0x08009020                DMA1_Channel5_IRQHandler
+                0x08009020                EXTI4_IRQHandler
+                0x08009020                USB_LP_CAN1_RX0_IRQHandler
+                0x08009020                USB_HP_CAN1_TX_IRQHandler
+                0x08009020                WWDG_IRQHandler
+                0x08009020                TIM2_IRQHandler
+                0x08009020                TIM1_BRK_IRQHandler
+                0x08009020                USART2_IRQHandler
+                0x08009020                I2C2_ER_IRQHandler
+                0x08009020                CAN1_SCE_IRQHandler
+                0x08009020                FLASH_IRQHandler
+                0x08009020                USART1_IRQHandler
+                0x08009020                I2C1_ER_IRQHandler
+                0x08009020                USBWakeUp_IRQHandler
+ .text._ZdlPvj  0x08009022        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(del_ops.o)
+                0x08009022                operator delete(void*, unsigned int)
+ .text._Znwj    0x08009026       0x22 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_op.o)
+                0x08009026                operator new(unsigned int)
  .text.unlikely._ZSt17__throw_bad_allocv
-                0x08008eec        0x6 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(functexcept.o)
-                0x08008eec                std::__throw_bad_alloc()
+                0x08009048        0x6 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(functexcept.o)
+                0x08009048                std::__throw_bad_alloc()
  .text.unlikely._ZSt28__throw_bad_array_new_lengthv
-                0x08008ef2        0x6 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(functexcept.o)
-                0x08008ef2                std::__throw_bad_array_new_length()
- .text._ZdlPv   0x08008ef8        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(del_op.o)
-                0x08008ef8                operator delete(void*)
+                0x0800904e        0x6 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(functexcept.o)
+                0x0800904e                std::__throw_bad_array_new_length()
+ .text._ZdlPv   0x08009054        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(del_op.o)
+                0x08009054                operator delete(void*)
  .text._ZSt15get_new_handlerv
-                0x08008efc       0x10 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_handler.o)
-                0x08008efc                std::get_new_handler()
- .text.sprintf  0x08008f0c       0x40 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sprintf.o)
-                0x08008f0c                siprintf
-                0x08008f0c                sprintf
- .text.__errno  0x08008f4c        0xc C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
-                0x08008f4c                __errno
+                0x08009058       0x10 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_handler.o)
+                0x08009058                std::get_new_handler()
+ .text.sprintf  0x08009068       0x40 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sprintf.o)
+                0x08009068                siprintf
+                0x08009068                sprintf
+ .text.__errno  0x080090a8        0xc C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+                0x080090a8                __errno
  .text.__ssputs_r
-                0x08008f58       0xb6 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
-                0x08008f58                __ssputs_r
- *fill*         0x0800900e        0x2 
+                0x080090b4       0xb6 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x080090b4                __ssputs_r
+ *fill*         0x0800916a        0x2 
  .text._svfprintf_r
-                0x08009010      0x1f8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
-                0x08009010                _svfiprintf_r
-                0x08009010                _svfprintf_r
+                0x0800916c      0x1f8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x0800916c                _svfiprintf_r
+                0x0800916c                _svfprintf_r
  *(.glue_7)
- .glue_7        0x08009208        0x0 linker stubs
+ .glue_7        0x08009364        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08009208        0x0 linker stubs
+ .glue_7t       0x08009364        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08009208        0x0 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x08009364        0x0 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x08009208        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
-                0x08009208                _init
- .init          0x0800920c        0x8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x08009364        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
+                0x08009364                _init
+ .init          0x08009368        0x8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08009214        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
-                0x08009214                _fini
- .fini          0x08009218        0x8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
-                0x08009220                        . = ALIGN (0x4)
-                0x08009220                        _etext = .
+ .fini          0x08009370        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crti.o
+                0x08009370                _fini
+ .fini          0x08009374        0x8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtn.o
+                0x0800937c                        . = ALIGN (0x4)
+                0x0800937c                        _etext = .
 
-.vfp11_veneer   0x08009220        0x0
- .vfp11_veneer  0x08009220        0x0 linker stubs
+.vfp11_veneer   0x0800937c        0x0
+ .vfp11_veneer  0x0800937c        0x0 linker stubs
 
-.v4_bx          0x08009220        0x0
- .v4_bx         0x08009220        0x0 linker stubs
+.v4_bx          0x0800937c        0x0
+ .v4_bx         0x0800937c        0x0 linker stubs
 
-.iplt           0x08009220        0x0
- .iplt          0x08009220        0x0 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x0800937c        0x0
+ .iplt          0x0800937c        0x0 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08009220      0x9d4
-                0x08009220                        . = ALIGN (0x4)
+.rodata         0x08009380      0x9d4
+                0x08009380                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08009220       0x17 CMakeFiles/car_green.dir/Core/Src/state_machine.c.obj
- *fill*         0x08009237        0x1 
- .rodata        0x08009238       0x2e CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+ .rodata        0x08009380       0x17 CMakeFiles/car_green.dir/Core/Src/state_machine.c.obj
+ *fill*         0x08009397        0x1 
+ .rodata        0x08009398       0x2e CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
  *(.rodata*)
  .rodata._printf_float.str1.1
-                0x08009266       0x12 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-vfprintf_float.o)
+                0x080093c6       0x12 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-vfprintf_float.o)
  .rodata._printf_i.str1.1
-                0x08009278       0x22 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x080093d8       0x22 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
  .rodata._dtoa_r.str1.1
-                0x0800929a       0x8d C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-dtoa.o)
+                0x080093fa       0x8d C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-dtoa.o)
                                  0x8f (size before relaxing)
  .rodata._Balloc.str1.1
-                0x08009327       0x59 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
+                0x08009487       0x59 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
                                  0x70 (size before relaxing)
  .rodata.__multadd.str1.1
-                0x08009380       0x11 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
- .rodata.p05.0  0x08009380        0xc C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
- *fill*         0x0800938c        0x4 
+                0x080094e0       0x11 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
+ .rodata.p05.0  0x080094e0        0xc C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
+ *fill*         0x080094ec        0x4 
  .rodata.__mprec_bigtens
-                0x08009390       0x28 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
-                0x08009390                __mprec_bigtens
+                0x080094f0       0x28 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
+                0x080094f0                __mprec_bigtens
  .rodata.__mprec_tens
-                0x080093b8       0xc8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
-                0x080093b8                __mprec_tens
+                0x08009518       0xc8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-mprec.o)
+                0x08009518                __mprec_tens
  .rodata._setlocale_r.str1.1
-                0x08009480        0x8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-locale.o)
+                0x080095e0        0x8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x08009488        0x2 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-locale.o)
+                0x080095e8        0x2 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-locale.o)
  .rodata.__assert_func.str1.1
-                0x0800948a       0x3c C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-assert.o)
+                0x080095ea       0x3c C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-assert.o)
                                  0x3d (size before relaxing)
  .rodata._ctype_
-                0x080094c6      0x101 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-ctype_.o)
-                0x080094c6                _ctype_
+                0x08009626      0x101 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-ctype_.o)
+                0x08009626                _ctype_
  .rodata._vfprintf_r.str1.1
-                0x080095c7       0x11 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x08009727       0x11 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-vfprintf.o)
  .rodata.OLED_F8x16
-                0x080095d8      0x5f0 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
-                0x080095d8                OLED_F8x16
+                0x08009738      0x5f0 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x08009738                OLED_F8x16
  .rodata.aPLLMULFactorTable.1
-                0x08009bc8       0x10 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08009d28       0x10 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x08009bd8        0x2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x08009bda        0x2 
+                0x08009d38        0x2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x08009d3a        0x2 
  .rodata.AHBPrescTable
-                0x08009bdc       0x10 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08009bdc                AHBPrescTable
+                0x08009d3c       0x10 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08009d3c                AHBPrescTable
  .rodata.APBPrescTable
-                0x08009bec        0x8 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08009bec                APBPrescTable
+                0x08009d4c        0x8 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+                0x08009d4c                APBPrescTable
  .rodata._svfprintf_r.str1.1
-                0x08009bf4       0x11 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
-                0x08009c08                        . = ALIGN (0x4)
+                0x08009d54       0x11 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+                0x08009d68                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08009bf4        0x8
-                0x08009bf4                        __exidx_start = .
+.ARM            0x08009d54        0x8
+                0x08009d54                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08009bf4        0x8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-strlen.o)
-                0x08009bfc                        __exidx_end = .
+ .ARM.exidx     0x08009d54        0x8 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-strlen.o)
+                0x08009d5c                        __exidx_end = .
 
-.rel.dyn        0x08009bfc        0x0
- .rel.iplt      0x08009bfc        0x0 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08009d5c        0x0
+ .rel.iplt      0x08009d5c        0x0 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.preinit_array  0x08009bfc        0x0
-                0x08009bfc                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08009d5c        0x0
+                0x08009d5c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08009bfc                        PROVIDE (__preinit_array_end = .)
+                0x08009d5c                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08009bfc        0x4
-                0x08009bfc                        PROVIDE (__init_array_start = .)
+.init_array     0x08009d5c        0x4
+                0x08009d5c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08009bfc        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08009c00                        PROVIDE (__init_array_end = .)
+ .init_array    0x08009d5c        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08009d60                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x08009c00        0x4
+.fini_array     0x08009d60        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08009c00        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x08009d60        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08009c04                        _sidata = LOADADDR (.data)
+                0x08009d64                        _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x21c load address 0x08009c04
+.data           0x20000000      0x220 load address 0x08009d64
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -5592,24 +5640,27 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x20000208                Kp
  .data.Ki       0x2000020c        0x4 CMakeFiles/car_green.dir/Core/Src/config.c.obj
                 0x2000020c                Ki
+ .data.Kp_follow
+                0x20000210        0x4 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+                0x20000210                Kp_follow
  .data.uwTickPrio
-                0x20000210        0x4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x20000210                uwTickPrio
+                0x20000214        0x4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x20000214                uwTickPrio
  .data.uwTickFreq
-                0x20000214        0x1 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x20000214                uwTickFreq
- *fill*         0x20000215        0x3 
+                0x20000218        0x1 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x20000218                uwTickFreq
+ *fill*         0x20000219        0x3 
  .data.SystemCoreClock
-                0x20000218        0x4 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
-                0x20000218                SystemCoreClock
-                0x2000021c                        . = ALIGN (0x4)
-                0x2000021c                        _edata = .
+                0x2000021c        0x4 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+                0x2000021c                SystemCoreClock
+                0x20000220                        . = ALIGN (0x4)
+                0x20000220                        _edata = .
 
-.igot.plt       0x2000021c        0x0 load address 0x08009e20
- .igot.plt      0x2000021c        0x0 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x2000021c                        . = ALIGN (0x4)
+.igot.plt       0x20000220        0x0 load address 0x08009f84
+ .igot.plt      0x20000220        0x0 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x20000220                        . = ALIGN (0x4)
 
-.bss            0x20000220      0x49c load address 0x08009e20
+.bss            0x20000220      0x4dc load address 0x08009f84
                 0x20000220                        _sbss = .
                 0x20000220                        __bss_start__ = _sbss
  *(.bss)
@@ -5652,61 +5703,70 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x200003d0                _state
  .bss.circle    0x200003d4        0x4 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
                 0x200003d4                circle
+ .bss.f_pid     0x200003d8       0x34 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x200003d8                f_pid
+ *fill*         0x2000040c        0x4 
  .bss.lastDetectedMillis
-                0x200003d8        0x8 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                0x200003d8                lastDetectedMillis
- .bss.Kd        0x200003e0        0x4 CMakeFiles/car_green.dir/Core/Src/config.c.obj
-                0x200003e0                Kd
- .bss.motorA    0x200003e4       0x34 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
-                0x200003e4                motorA
- .bss.motorB    0x20000418       0x34 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
-                0x20000418                motorB
+                0x20000410        0x8 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x20000410                lastDetectedMillis
+ .bss.Kd        0x20000418        0x4 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+                0x20000418                Kd
+ .bss.Ki_follow
+                0x2000041c        0x4 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+                0x2000041c                Ki_follow
+ .bss.Kd_follow
+                0x20000420        0x4 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+                0x20000420                Kd_follow
+ .bss.motorA    0x20000424       0x34 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+                0x20000424                motorA
+ .bss.motorB    0x20000458       0x34 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+                0x20000458                motorB
  .bss.oled_message1
-                0x2000044c       0x10 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
-                0x2000044c                oled_message1
+                0x2000048c       0x10 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+                0x2000048c                oled_message1
  .bss.oled_message2
-                0x2000045c       0x10 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
-                0x2000045c                oled_message2
- .bss.hi2c1     0x2000046c       0x54 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
-                0x2000046c                hi2c1
- .bss.htim1     0x200004c0       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x200004c0                htim1
- .bss.htim2     0x20000508       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x20000508                htim2
- .bss.htim3     0x20000550       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x20000550                htim3
- .bss.htim4     0x20000598       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
-                0x20000598                htim4
- .bss.huart3    0x200005e0       0x48 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
-                0x200005e0                huart3
+                0x2000049c       0x10 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+                0x2000049c                oled_message2
+ .bss.hi2c1     0x200004ac       0x54 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+                0x200004ac                hi2c1
+ .bss.htim1     0x20000500       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x20000500                htim1
+ .bss.htim2     0x20000548       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x20000548                htim2
+ .bss.htim3     0x20000590       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x20000590                htim3
+ .bss.htim4     0x200005d8       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x200005d8                htim4
+ .bss.huart3    0x20000620       0x48 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+                0x20000620                huart3
  .bss.hdma_usart3_rx
-                0x20000628       0x44 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
-                0x20000628                hdma_usart3_rx
+                0x20000668       0x44 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+                0x20000668                hdma_usart3_rx
  .bss.hdma_usart3_tx
-                0x2000066c       0x44 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
-                0x2000066c                hdma_usart3_tx
- .bss.uwTick    0x200006b0        0x4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x200006b0                uwTick
+                0x200006ac       0x44 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+                0x200006ac                hdma_usart3_tx
+ .bss.uwTick    0x200006f0        0x4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x200006f0                uwTick
  .bss.__sbrk_heap_end
-                0x200006b4        0x4 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+                0x200006f4        0x4 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
  .bss._ZN12_GLOBAL__N_113__new_handlerE
-                0x200006b8        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_handler.o)
+                0x200006f8        0x4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_handler.o)
  *(COMMON)
-                0x200006bc                        . = ALIGN (0x4)
-                0x200006bc                        _ebss = .
-                0x200006bc                        __bss_end__ = _ebss
+                0x200006fc                        . = ALIGN (0x4)
+                0x200006fc                        _ebss = .
+                0x200006fc                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200006bc      0x604 load address 0x08009e20
-                0x200006c0                        . = ALIGN (0x8)
- *fill*         0x200006bc        0x4 
+                0x200006fc      0x604 load address 0x08009f84
+                0x20000700                        . = ALIGN (0x8)
+ *fill*         0x200006fc        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x200006c0                        PROVIDE (_end = .)
-                0x200008c0                        . = (. + _Min_Heap_Size)
- *fill*         0x200006c0      0x200 
-                0x20000cc0                        . = (. + _Min_Stack_Size)
- *fill*         0x200008c0      0x400 
-                0x20000cc0                        . = ALIGN (0x8)
+                0x20000700                        PROVIDE (_end = .)
+                0x20000900                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000700      0x200 
+                0x20000d00                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000900      0x400 
+                0x20000d00                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -5943,7 +6003,7 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x00000043       0x44 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
  .comment       0x00000043       0x44 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
 
-.debug_frame    0x00000000     0x6868
+.debug_frame    0x00000000     0x6ae8
  .debug_frame   0x00000000       0x90 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-vfprintf_float.o)
  .debug_frame   0x00000090       0x60 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-vfprintf_i.o)
  .debug_frame   0x000000f0      0x144 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-findfp.o)
@@ -5990,116 +6050,116 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_frame   0x00001054       0x90 CMakeFiles/car_green.dir/Core/Src/timer.c.obj
  .debug_frame   0x000010e4       0x98 CMakeFiles/car_green.dir/Core/Src/bluetooth.c.obj
  .debug_frame   0x0000117c      0x100 CMakeFiles/car_green.dir/Core/Src/state_machine.c.obj
- .debug_frame   0x0000127c      0x4dc CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
- .debug_frame   0x00001758      0x584 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
- .debug_frame   0x00001cdc       0xb0 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
- .debug_frame   0x00001d8c       0x74 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
- .debug_frame   0x00001e00      0x250 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
- .debug_frame   0x00002050       0x2c CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
- .debug_frame   0x0000207c       0x68 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
- .debug_frame   0x000020e4       0x34 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
- .debug_frame   0x00002118       0x34 CMakeFiles/car_green.dir/Core/Src/dma.c.obj
- .debug_frame   0x0000214c       0x74 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
- .debug_frame   0x000021c0      0x154 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
- .debug_frame   0x00002314       0x74 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
- .debug_frame   0x00002388      0x190 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_frame   0x00002518       0x38 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x00002550      0xc84 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_frame   0x000031d4      0x334 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x00003508      0x218 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x00003720      0x14c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x0000386c      0x208 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_frame   0x00003a74      0x428 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x00003e9c     0x11b8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_frame   0x00005054      0x638 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_frame   0x0000568c      0x944 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_frame   0x00005fd0       0x58 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x00006028       0x34 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
- .debug_frame   0x0000605c      0x2ac CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
- .debug_frame   0x00006308       0x20 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(del_ops.o)
- .debug_frame   0x00006328       0x28 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_op.o)
- .debug_frame   0x00006350      0x184 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(functexcept.o)
- .debug_frame   0x000064d4       0x20 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(del_op.o)
- .debug_frame   0x000064f4       0x30 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_handler.o)
- .debug_frame   0x00006524       0x6c C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sprintf.o)
- .debug_frame   0x00006590       0x20 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
- .debug_frame   0x000065b0       0x90 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
- .debug_frame   0x00006640       0xac C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x000066ec       0x50 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x0000673c       0xc4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x00006800       0x20 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x00006820       0x24 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
- .debug_frame   0x00006844       0x24 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000127c      0x4e0 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+ .debug_frame   0x0000175c      0x7b0 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .debug_frame   0x00001f0c      0x100 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+ .debug_frame   0x0000200c       0x74 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+ .debug_frame   0x00002080      0x250 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+ .debug_frame   0x000022d0       0x2c CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+ .debug_frame   0x000022fc       0x68 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+ .debug_frame   0x00002364       0x34 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
+ .debug_frame   0x00002398       0x34 CMakeFiles/car_green.dir/Core/Src/dma.c.obj
+ .debug_frame   0x000023cc       0x74 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+ .debug_frame   0x00002440      0x154 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+ .debug_frame   0x00002594       0x74 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+ .debug_frame   0x00002608      0x190 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x00002798       0x38 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x000027d0      0xc84 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_frame   0x00003454      0x334 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x00003788      0x218 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x000039a0      0x14c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x00003aec      0x208 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_frame   0x00003cf4      0x428 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x0000411c     0x11b8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_frame   0x000052d4      0x638 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_frame   0x0000590c      0x944 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_frame   0x00006250       0x58 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x000062a8       0x34 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+ .debug_frame   0x000062dc      0x2ac CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+ .debug_frame   0x00006588       0x20 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(del_ops.o)
+ .debug_frame   0x000065a8       0x28 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_op.o)
+ .debug_frame   0x000065d0      0x184 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(functexcept.o)
+ .debug_frame   0x00006754       0x20 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(del_op.o)
+ .debug_frame   0x00006774       0x30 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libstdc++_nano.a(new_handler.o)
+ .debug_frame   0x000067a4       0x6c C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-sprintf.o)
+ .debug_frame   0x00006810       0x20 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x00006830       0x90 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-nano-svfprintf.o)
+ .debug_frame   0x000068c0       0xac C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000696c       0x50 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x000069bc       0xc4 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x00006a80       0x20 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x00006aa0       0x24 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00006ac4       0x24 C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.1.0.202410251130/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7-m/nofp\libgcc.a(_arm_truncdfsf2.o)
 
-.debug_info     0x00000000    0x19489
+.debug_info     0x00000000    0x19aab
  .debug_info    0x00000000      0x937 CMakeFiles/car_green.dir/Core/Src/motor.c.obj
  .debug_info    0x00000937      0x6c8 CMakeFiles/car_green.dir/Core/Src/timer.c.obj
  .debug_info    0x00000fff      0x711 CMakeFiles/car_green.dir/Core/Src/bluetooth.c.obj
  .debug_info    0x00001710      0x6f9 CMakeFiles/car_green.dir/Core/Src/state_machine.c.obj
- .debug_info    0x00001e09     0x3661 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
- .debug_info    0x0000546a     0x3333 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
- .debug_info    0x0000879d       0xef CMakeFiles/car_green.dir/Core/Src/config.c.obj
- .debug_info    0x0000888c      0x22f CMakeFiles/car_green.dir/Core/Src/pid.c.obj
- .debug_info    0x00008abb      0x285 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
- .debug_info    0x00008d40      0x661 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
- .debug_info    0x000093a1      0x145 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
- .debug_info    0x000094e6      0xa91 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
- .debug_info    0x00009f77      0x432 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
- .debug_info    0x0000a3a9      0x2cf CMakeFiles/car_green.dir/Core/Src/dma.c.obj
- .debug_info    0x0000a678      0x879 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
- .debug_info    0x0000aef1      0xe2c CMakeFiles/car_green.dir/Core/Src/tim.c.obj
- .debug_info    0x0000bd1d      0x983 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
- .debug_info    0x0000c6a0      0x9b9 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x0000d059      0x1f1 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x0000d24a     0x2524 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_info    0x0000f76e      0x704 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x0000fe72      0x7d5 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00010647      0x5ab CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00010bf2      0x6d2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_info    0x000112c4      0xa87 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00011d4b     0x2959 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_info    0x000146a4     0x149b CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_info    0x00015b3f     0x2eed CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_info    0x00018a2c      0x222 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x00018c4e      0x168 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00018db6      0x6a3 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00019459       0x30 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
+ .debug_info    0x00001e09     0x37df CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+ .debug_info    0x000055e8     0x3735 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .debug_info    0x00008d1d      0x137 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+ .debug_info    0x00008e54      0x289 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+ .debug_info    0x000090dd      0x285 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+ .debug_info    0x00009362      0x661 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+ .debug_info    0x000099c3      0x145 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+ .debug_info    0x00009b08      0xa91 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+ .debug_info    0x0000a599      0x432 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
+ .debug_info    0x0000a9cb      0x2cf CMakeFiles/car_green.dir/Core/Src/dma.c.obj
+ .debug_info    0x0000ac9a      0x879 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+ .debug_info    0x0000b513      0xe2c CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+ .debug_info    0x0000c33f      0x983 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+ .debug_info    0x0000ccc2      0x9b9 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x0000d67b      0x1f1 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x0000d86c     0x2524 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_info    0x0000fd90      0x704 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x00010494      0x7d5 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x00010c69      0x5ab CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x00011214      0x6d2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_info    0x000118e6      0xa87 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x0001236d     0x2959 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_info    0x00014cc6     0x149b CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_info    0x00016161     0x2eed CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x0001904e      0x222 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x00019270      0x168 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x000193d8      0x6a3 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x00019a7b       0x30 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
 
-.debug_abbrev   0x00000000     0x45af
+.debug_abbrev   0x00000000     0x45f0
  .debug_abbrev  0x00000000      0x245 CMakeFiles/car_green.dir/Core/Src/motor.c.obj
  .debug_abbrev  0x00000245      0x1e8 CMakeFiles/car_green.dir/Core/Src/timer.c.obj
  .debug_abbrev  0x0000042d      0x1ee CMakeFiles/car_green.dir/Core/Src/bluetooth.c.obj
  .debug_abbrev  0x0000061b      0x20f CMakeFiles/car_green.dir/Core/Src/state_machine.c.obj
  .debug_abbrev  0x0000082a      0x846 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
- .debug_abbrev  0x00001070      0x781 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
- .debug_abbrev  0x000017f1       0x91 CMakeFiles/car_green.dir/Core/Src/config.c.obj
- .debug_abbrev  0x00001882      0x11a CMakeFiles/car_green.dir/Core/Src/pid.c.obj
- .debug_abbrev  0x0000199c      0x149 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
- .debug_abbrev  0x00001ae5      0x22e CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
- .debug_abbrev  0x00001d13       0xd7 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
- .debug_abbrev  0x00001dea      0x25d CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
- .debug_abbrev  0x00002047      0x161 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
- .debug_abbrev  0x000021a8       0xfc CMakeFiles/car_green.dir/Core/Src/dma.c.obj
- .debug_abbrev  0x000022a4      0x1ef CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
- .debug_abbrev  0x00002493      0x286 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
- .debug_abbrev  0x00002719      0x208 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
- .debug_abbrev  0x00002921      0x1c9 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x00002aea       0xdb CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00002bc5      0x2a3 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_abbrev  0x00002e68      0x201 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x00003069      0x2b3 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x0000331c      0x1ca CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x000034e6      0x20b CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_abbrev  0x000036f1      0x2f8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x000039e9      0x277 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_abbrev  0x00003c60      0x282 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00003ee2      0x2f8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_abbrev  0x000041da      0x13f CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x00004319       0xbc CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x000043d5      0x1b6 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x0000458b       0x24 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
+ .debug_abbrev  0x00001070      0x7a5 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .debug_abbrev  0x00001815       0x91 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+ .debug_abbrev  0x000018a6      0x137 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+ .debug_abbrev  0x000019dd      0x149 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+ .debug_abbrev  0x00001b26      0x22e CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+ .debug_abbrev  0x00001d54       0xd7 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+ .debug_abbrev  0x00001e2b      0x25d CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+ .debug_abbrev  0x00002088      0x161 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
+ .debug_abbrev  0x000021e9       0xfc CMakeFiles/car_green.dir/Core/Src/dma.c.obj
+ .debug_abbrev  0x000022e5      0x1ef CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+ .debug_abbrev  0x000024d4      0x286 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+ .debug_abbrev  0x0000275a      0x208 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+ .debug_abbrev  0x00002962      0x1c9 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00002b2b       0xdb CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00002c06      0x2a3 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_abbrev  0x00002ea9      0x201 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x000030aa      0x2b3 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x0000335d      0x1ca CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x00003527      0x20b CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_abbrev  0x00003732      0x2f8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00003a2a      0x277 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_abbrev  0x00003ca1      0x282 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00003f23      0x2f8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x0000421b      0x13f CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x0000435a       0xbc CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x00004416      0x1b6 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x000045cc       0x24 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
 
-.debug_aranges  0x00000000     0x1500
+.debug_aranges  0x00000000     0x1588
  .debug_aranges
                 0x00000000       0x80 CMakeFiles/car_green.dir/Core/Src/motor.c.obj
  .debug_aranges
@@ -6111,62 +6171,62 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_aranges
                 0x00000148      0x120 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
  .debug_aranges
-                0x00000268      0x140 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x00000268      0x1b8 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .debug_aranges
-                0x000003a8       0x18 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+                0x00000420       0x18 CMakeFiles/car_green.dir/Core/Src/config.c.obj
  .debug_aranges
-                0x000003c0       0x38 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+                0x00000438       0x48 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
  .debug_aranges
-                0x000003f8       0x30 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+                0x00000480       0x30 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
  .debug_aranges
-                0x00000428       0x98 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x000004b0       0x98 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
  .debug_aranges
-                0x000004c0       0x20 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+                0x00000548       0x20 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
  .debug_aranges
-                0x000004e0       0x30 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+                0x00000568       0x30 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
  .debug_aranges
-                0x00000510       0x20 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
+                0x00000598       0x20 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
  .debug_aranges
-                0x00000530       0x20 CMakeFiles/car_green.dir/Core/Src/dma.c.obj
+                0x000005b8       0x20 CMakeFiles/car_green.dir/Core/Src/dma.c.obj
  .debug_aranges
-                0x00000550       0x30 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+                0x000005d8       0x30 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
  .debug_aranges
-                0x00000580       0x60 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x00000608       0x60 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
  .debug_aranges
-                0x000005e0       0x30 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+                0x00000668       0x30 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
  .debug_aranges
-                0x00000610       0x88 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000698       0x88 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_aranges
-                0x00000698       0x20 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x00000720       0x20 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_aranges
-                0x000006b8      0x2a8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x00000740      0x2a8 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .debug_aranges
-                0x00000960       0xe0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x000009e8       0xe0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
-                0x00000a40       0x90 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x00000ac8       0x90 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000ad0       0x58 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x00000b58       0x58 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000b28       0x80 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x00000bb0       0x80 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_aranges
-                0x00000ba8      0x100 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000c30      0x100 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000ca8      0x3d0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x00000d30      0x3d0 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_aranges
-                0x00001078      0x168 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x00001100      0x168 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .debug_aranges
-                0x000011e0      0x208 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00001268      0x208 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_aranges
-                0x000013e8       0x28 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+                0x00001470       0x28 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
-                0x00001410       0x20 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+                0x00001498       0x20 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
  .debug_aranges
-                0x00001430       0xa8 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x000014b8       0xa8 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
  .debug_aranges
-                0x000014d8       0x28 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
+                0x00001560       0x28 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
 
 .debug_rnglists
-                0x00000000     0x1017
+                0x00000000     0x107c
  .debug_rnglists
                 0x00000000       0x5c CMakeFiles/car_green.dir/Core/Src/motor.c.obj
  .debug_rnglists
@@ -6176,59 +6236,59 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_rnglists
                 0x000000a7       0x3d CMakeFiles/car_green.dir/Core/Src/state_machine.c.obj
  .debug_rnglists
-                0x000000e4       0xd8 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                0x000000e4       0xd7 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
  .debug_rnglists
-                0x000001bc       0xec CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                0x000001bb      0x146 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
  .debug_rnglists
-                0x000002a8       0x26 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+                0x00000301       0x32 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
  .debug_rnglists
-                0x000002ce       0x1f CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+                0x00000333       0x1f CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
  .debug_rnglists
-                0x000002ed       0x71 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+                0x00000352       0x71 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
  .debug_rnglists
-                0x0000035e       0x13 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+                0x000003c3       0x13 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
  .debug_rnglists
-                0x00000371       0x20 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+                0x000003d6       0x20 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
  .debug_rnglists
-                0x00000391       0x14 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
+                0x000003f6       0x14 CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
  .debug_rnglists
-                0x000003a5       0x13 CMakeFiles/car_green.dir/Core/Src/dma.c.obj
+                0x0000040a       0x13 CMakeFiles/car_green.dir/Core/Src/dma.c.obj
  .debug_rnglists
-                0x000003b8       0x20 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+                0x0000041d       0x20 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
  .debug_rnglists
-                0x000003d8       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+                0x0000043d       0x48 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
  .debug_rnglists
-                0x00000420       0x20 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+                0x00000485       0x20 CMakeFiles/car_green.dir/Core/Src/usart.c.obj
  .debug_rnglists
-                0x00000440       0x61 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+                0x000004a5       0x61 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_rnglists
-                0x000004a1       0x13 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x00000506       0x13 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_rnglists
-                0x000004b4      0x23c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+                0x00000519      0x23c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
  .debug_rnglists
-                0x000006f0       0xa3 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000755       0xa3 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_rnglists
-                0x00000793       0x6c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x000007f8       0x6c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_rnglists
-                0x000007ff       0x3f CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x00000864       0x3f CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_rnglists
-                0x0000083e       0x64 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x000008a3       0x64 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .debug_rnglists
-                0x000008a2       0xbb CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000907       0xbb CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_rnglists
-                0x0000095d      0x31a CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+                0x000009c2      0x31a CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
  .debug_rnglists
-                0x00000c77      0x125 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+                0x00000cdc      0x125 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
  .debug_rnglists
-                0x00000d9c      0x1bc CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x00000e01      0x1bc CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_rnglists
-                0x00000f58       0x1a CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+                0x00000fbd       0x1a CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
  .debug_rnglists
-                0x00000f72       0x13 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+                0x00000fd7       0x13 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
  .debug_rnglists
-                0x00000f85       0x79 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+                0x00000fea       0x79 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
  .debug_rnglists
-                0x00000ffe       0x19 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
+                0x00001063       0x19 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
 
 .debug_macro    0x00000000    0x1dec3
  .debug_macro   0x00000000      0x275 CMakeFiles/car_green.dir/Core/Src/motor.c.obj
@@ -6395,41 +6455,41 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x0001dddf       0x16 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
  .debug_macro   0x0001ddf5       0xce CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
 
-.debug_line     0x00000000    0x1e774
+.debug_line     0x00000000    0x1ea28
  .debug_line    0x00000000      0xb77 CMakeFiles/car_green.dir/Core/Src/motor.c.obj
  .debug_line    0x00000b77      0xa36 CMakeFiles/car_green.dir/Core/Src/timer.c.obj
  .debug_line    0x000015ad      0xaa0 CMakeFiles/car_green.dir/Core/Src/bluetooth.c.obj
  .debug_line    0x0000204d      0xae2 CMakeFiles/car_green.dir/Core/Src/state_machine.c.obj
- .debug_line    0x00002b2f     0x1a35 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
- .debug_line    0x00004564     0x187d CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
- .debug_line    0x00005de1       0xe7 CMakeFiles/car_green.dir/Core/Src/config.c.obj
- .debug_line    0x00005ec8      0x5de CMakeFiles/car_green.dir/Core/Src/pid.c.obj
- .debug_line    0x000064a6      0x543 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
- .debug_line    0x000069e9      0xcd8 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
- .debug_line    0x000076c1      0x5b2 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
- .debug_line    0x00007c73      0xf03 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
- .debug_line    0x00008b76      0x94e CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
- .debug_line    0x000094c4      0x90f CMakeFiles/car_green.dir/Core/Src/dma.c.obj
- .debug_line    0x00009dd3      0x978 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
- .debug_line    0x0000a74b      0xb6a CMakeFiles/car_green.dir/Core/Src/tim.c.obj
- .debug_line    0x0000b2b5      0x9ca CMakeFiles/car_green.dir/Core/Src/usart.c.obj
- .debug_line    0x0000bc7f      0xa4c CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x0000c6cb      0x912 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x0000cfdd     0x3e5a CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
- .debug_line    0x00010e37      0xbbd CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x000119f4      0xfc6 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x000129ba      0xc56 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00013610     0x1016 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x00014626      0xda9 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x000153cf     0x36e2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_line    0x00018ab1     0x1b0c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_line    0x0001a5bd     0x2a9c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x0001d059      0x990 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x0001d9e9      0x4f2 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0001dedb      0x821 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
- .debug_line    0x0001e6fc       0x78 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
+ .debug_line    0x00002b2f     0x1ab7 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+ .debug_line    0x000045e6     0x1a81 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+ .debug_line    0x00006067       0xe7 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+ .debug_line    0x0000614e      0x60c CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+ .debug_line    0x0000675a      0x543 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+ .debug_line    0x00006c9d      0xcd8 CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+ .debug_line    0x00007975      0x5b2 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+ .debug_line    0x00007f27      0xf03 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+ .debug_line    0x00008e2a      0x94e CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
+ .debug_line    0x00009778      0x90f CMakeFiles/car_green.dir/Core/Src/dma.c.obj
+ .debug_line    0x0000a087      0x978 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+ .debug_line    0x0000a9ff      0xb6a CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+ .debug_line    0x0000b569      0x9ca CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+ .debug_line    0x0000bf33      0xa4c CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x0000c97f      0x912 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x0000d291     0x3e5a CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_line    0x000110eb      0xbbd CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00011ca8      0xfc6 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00012c6e      0xc56 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x000138c4     0x1016 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x000148da      0xda9 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x00015683     0x36e2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_line    0x00018d65     0x1b0c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_line    0x0001a871     0x2a9c CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x0001d30d      0x990 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x0001dc9d      0x4f2 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x0001e18f      0x821 CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x0001e9b0       0x78 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
 
-.debug_str      0x00000000    0x97baf
+.debug_str      0x00000000    0x97c81
  .debug_str     0x00000000    0x88997 CMakeFiles/car_green.dir/Core/Src/motor.c.obj
                               0x88dfe (size before relaxing)
  .debug_str     0x00088997      0x7c9 CMakeFiles/car_green.dir/Core/Src/timer.c.obj
@@ -6438,61 +6498,61 @@ LOAD C:/ST/STM32CubeIDE_1.17.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                               0x88585 (size before relaxing)
  .debug_str     0x00089516       0xec CMakeFiles/car_green.dir/Core/Src/state_machine.c.obj
                               0x88c13 (size before relaxing)
- .debug_str     0x00089602     0x7c55 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
-                              0x90184 (size before relaxing)
- .debug_str     0x00091257      0x348 CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
-                              0x8ceb2 (size before relaxing)
- .debug_str     0x0009159f       0x56 CMakeFiles/car_green.dir/Core/Src/config.c.obj
-                               0x2f7d (size before relaxing)
- .debug_str     0x000915f5       0xc2 CMakeFiles/car_green.dir/Core/Src/pid.c.obj
-                               0x3f08 (size before relaxing)
- .debug_str     0x000916b7       0x8f CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
+ .debug_str     0x00089602     0x7cd5 CMakeFiles/car_green.dir/Core/Src/follow.cpp.obj
+                              0x90217 (size before relaxing)
+ .debug_str     0x000912d7      0x3bc CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj
+                              0x8cfff (size before relaxing)
+ .debug_str     0x00091693       0x66 CMakeFiles/car_green.dir/Core/Src/config.c.obj
+                               0x2f9b (size before relaxing)
+ .debug_str     0x000916f9       0x6d CMakeFiles/car_green.dir/Core/Src/pid.c.obj
+                               0x3f25 (size before relaxing)
+ .debug_str     0x00091766       0xb2 CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj
                                0x466c (size before relaxing)
- .debug_str     0x00091746      0x28f CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
+ .debug_str     0x00091818      0x28f CMakeFiles/car_green.dir/Core/Src/OLED.c.obj
                               0x8527c (size before relaxing)
- .debug_str     0x000919d5       0x78 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
+ .debug_str     0x00091aa7       0x78 CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj
                                0x7338 (size before relaxing)
- .debug_str     0x00091a4d      0x2a2 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
+ .debug_str     0x00091b1f      0x2a2 CMakeFiles/car_green.dir/Core/Src/main.cpp.obj
                               0x8b87c (size before relaxing)
- .debug_str     0x00091cef      0x2ef CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
+ .debug_str     0x00091dc1      0x2ef CMakeFiles/car_green.dir/Core/Src/gpio.c.obj
                               0x8574e (size before relaxing)
- .debug_str     0x00091fde       0x53 CMakeFiles/car_green.dir/Core/Src/dma.c.obj
+ .debug_str     0x000920b0       0x53 CMakeFiles/car_green.dir/Core/Src/dma.c.obj
                               0x856a5 (size before relaxing)
- .debug_str     0x00092031      0x2f6 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
+ .debug_str     0x00092103      0x2f6 CMakeFiles/car_green.dir/Core/Src/i2c.c.obj
                               0x8592f (size before relaxing)
- .debug_str     0x00092327      0x324 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
+ .debug_str     0x000923f9      0x324 CMakeFiles/car_green.dir/Core/Src/tim.c.obj
                               0x85f31 (size before relaxing)
- .debug_str     0x0009264b       0xbd CMakeFiles/car_green.dir/Core/Src/usart.c.obj
+ .debug_str     0x0009271d       0xbd CMakeFiles/car_green.dir/Core/Src/usart.c.obj
                               0x85be4 (size before relaxing)
- .debug_str     0x00092708      0x1b2 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x000927da      0x1b2 CMakeFiles/car_green.dir/Core/Src/stm32f1xx_it.c.obj
                               0x85bb5 (size before relaxing)
- .debug_str     0x000928ba       0x6d CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x0009298c       0x6d CMakeFiles/car_green.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                               0x853cf (size before relaxing)
- .debug_str     0x00092927      0xc30 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+ .debug_str     0x000929f9      0xc30 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
                               0x86103 (size before relaxing)
- .debug_str     0x00093557      0x346 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00093629      0x346 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                               0x8576f (size before relaxing)
- .debug_str     0x0009389d      0x266 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x0009396f      0x266 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                               0x8546b (size before relaxing)
- .debug_str     0x00093b03      0x2fd CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x00093bd5      0x2fd CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                               0x853c2 (size before relaxing)
- .debug_str     0x00093e00      0x20f CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x00093ed2      0x20f CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
                               0x853e5 (size before relaxing)
- .debug_str     0x0009400f      0x2cb CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x000940e1      0x2cb CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                               0x856bb (size before relaxing)
- .debug_str     0x000942da      0xc63 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_str     0x000943ac      0xc63 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
                               0x8646d (size before relaxing)
- .debug_str     0x00094f3d      0x4d4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_str     0x0009500f      0x4d4 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
                               0x85c79 (size before relaxing)
- .debug_str     0x00095411      0x5e2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x000954e3      0x5e2 CMakeFiles/car_green.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                               0x85adc (size before relaxing)
- .debug_str     0x000959f3       0x93 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00095ac5       0x93 CMakeFiles/car_green.dir/Core/Src/system_stm32f1xx.c.obj
                               0x8503c (size before relaxing)
- .debug_str     0x00095a86      0x518 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00095b58      0x518 CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj
                                0x5abd (size before relaxing)
- .debug_str     0x00095f9e     0x1b9b CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00096070     0x1b9b CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj
                                0x934a (size before relaxing)
- .debug_str     0x00097b39       0x76 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
+ .debug_str     0x00097c0b       0x76 CMakeFiles/car_green.dir/startup_stm32f103xb.s.obj
                                  0xc6 (size before relaxing)
 
 .debug_line_str

@@ -18,9 +18,19 @@ void pid_init(pid_t *pid, uint32_t mode, float p, float i, float d)
 	// pid_set_target(&motorB, 0);
 }
 
+void pid_set_now(pid_t *pid, float _now)
+{
+	pid->now = _now;
+}
+
 void pid_set_target(pid_t *pid, float _tar)
 {
 	pid->target	= _tar;
+}
+
+float pid_get_out(pid_t *pid)
+{
+	return pid->out;
 }
 
 void pid_set_target_speed(pid_t *pid, float _tar)

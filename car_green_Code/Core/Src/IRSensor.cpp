@@ -35,4 +35,23 @@ std::vector<bool> get_IR(void)
 
 }
 
+int get_IR_Int(void)
+{
+    
+    auto ir_states = get_IR();
+    
+    for (int i = 0; i < ir_states.size(); i++)
+    {
+        if (ir_states[i])
+        {
+            return (i + 1) * 1000;
+        }
+        
+    }
+    
+
+    return 0;
+    
+}
+
 

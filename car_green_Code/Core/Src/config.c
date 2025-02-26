@@ -12,3 +12,5 @@ int BASIC_SPEED = 150;
 float BASIC_PHY_SPEED = 50;
 
 float Kp = 10, Ki = 10, Kd = 0;
+
+float Kp_follow = 10, Ki_follow = 0, Kd_follow = 0;
