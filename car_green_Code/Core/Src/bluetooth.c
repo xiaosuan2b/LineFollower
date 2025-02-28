@@ -5,6 +5,7 @@
 #include "string.h"
 
 #include "state_machine.h"
+#include "oled_display.h"
 
 // const int N = 50;
 
@@ -71,9 +72,9 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
         {
             switch (command[1]) 
             {
-                case 'U': BASIC_SPEED += SINGLE_ADJUST_STEP; break;
-                case 'D': BASIC_SPEED -= SINGLE_ADJUST_STEP; break;
-            
+                case 'U': if(BASIC_SPEED + SINGLE_ADJUST_STEP < MAX_SPEED) BASIC_SPEED += SINGLE_ADJUST_STEP; break;
+                case 'D': if(BASIC_SPEED - SINGLE_ADJUST_STEP > 0) BASIC_SPEED -= SINGLE_ADJUST_STEP; break;
+                case 'R': reset_max_speed_cnt();
             }
         
         }

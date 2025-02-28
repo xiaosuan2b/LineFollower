@@ -124,21 +124,21 @@ float get_phy_speed(int motor_num)
 {
     /**
         @param int whell 轮胎编号
-        @return int phy_speed 物理速度 (mm/s)
+        @return int phy_speed 物理速度 (cm/s)
 
         电机减速比 30，GMR 编码器精度 500
         转一圈编码器读数 15000
         轮胎直径 65mm ，转一圈 204.2 mm
-        * 编码器: 距离mm 725 : 1 mm
-        10ms 采集一次数据 725 : 100 mm/s
+        * 编码器: 距离mm 73.456 : 1 mm
+        10ms 采集一次数据 73.456 : 100 mm/s
 
-        * 最终：1mm/s 对应编码器读数：7.25
+        * 最终：编码器示数 1 对应 0.136135681655557707 cm/s
      */
      
     switch (motor_num) 
     {
-        case 1: return count1 / 7.25; break;   
-        case 2: return count2 / 7.25; break;
+        case 1: return count1 * 0.136135681; break;   
+        case 2: return count2 * 0.136135681; break;
 
         default: return NAN; break;
     

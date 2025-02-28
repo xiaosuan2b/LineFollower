@@ -92,7 +92,7 @@ bool ready_continue(void)
         if (irs[i]) hx_cnt++;
     }
 
-    if (hx_cnt > 4) 
+    if (hx_cnt >= 4) 
     {
         circle++; // 检测到横线，圈数++
         lastDetectedMillis = currentMillis;
@@ -203,21 +203,28 @@ void follow3(void)
 
     auto irstate = get_IR();
 
-    if (irstate[0] == 1 && irstate[1] == 1 && irstate[2] == 1) 
+    /* 直角转弯 */
+    if (!(irstate[0] && irstate[1] && irstate[2] && irstate[3] && irstate[4])) 
     {
-        motor_set(1, 0);
-        motor_set(2, BASIC_SPEED * 4 );
-        HAL_Delay(50);
-        return;
+        if (irstate[0] == 1 && irstate[1] == 1 && irstate[2] == 1) 
+        {
+            motor_set(1, 0);
+            motor_set(2, BASIC_SPEED * 4 );
+            HAL_Delay(50);
+            return;
+        }
+
+        if (irstate[2] == 1 && irstate[3] == 1 && irstate[4] == 1) 
+        {
+            motor_set(1, BASIC_SPEED * 4);
+            motor_set(2, 0);
+            HAL_Delay(50);
+            return;
+        }
+    
     }
 
-    if (irstate[2] == 1 && irstate[3] == 1 && irstate[4] == 1) 
-    {
-        motor_set(1, BASIC_SPEED * 4);
-        motor_set(2, 0);
-        HAL_Delay(50);
-        return;
-    }
+    
 
     if (irstate[0] != irstate[4]) 
     {
