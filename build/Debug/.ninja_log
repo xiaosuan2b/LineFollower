@@ -1,5 +1,5 @@
 # ninja log v6
-17	207	7623706290260420	CMakeFiles/car_green.dir/Core/Src/timer.c.obj	a39a97e5387cd431
+26	272	7690915772496734	CMakeFiles/car_green.dir/Core/Src/timer.c.obj	a39a97e5387cd431
 28	146	7623702248885614	CMakeFiles/car_green.dir/Core/Src/oled_dispaly.c.obj	74f7b6fea7364eb3
 913	5132	7604672952774622	CMakeFiles/car_green.dir/Core/Src/gpio.c.obj	13f3d849fff375de
 1570	5970	7604672959344670	CMakeFiles/car_green.dir/Core/Src/i2c.c.obj	f93fe7aea662f7c0
@@ -34,11 +34,11 @@
 18	253	7607941403531809	CMakeFiles/car_green.dir/Core/Src/main.c.obj	c88b69fad8f96fbc
 9979	11880	7604673043433684	CMakeFiles/car_green.dir/Core/Src/sysmem.c.obj	684e001130beb6b3
 10744	12201	7604673051084026	CMakeFiles/car_green.dir/Core/Src/syscalls.c.obj	2873d6896ba6c179
-207	466	7623706292165712	car_green.elf	1aec3b09d620ac0b
+273	985	7690915774960093	car_green.elf	1aec3b09d620ac0b
 82	715	7607938811169511	CMakeFiles/car_green.dir/Core/Src/follow.c.obj	6e0ada852ba1fdea
 181	649	7622675726781254	CMakeFiles/car_green.dir/Core/Src/main.cpp.obj	79a82f216958585e
 40	315	7608995074332982	CMakeFiles/car_green.dir/Core/Src/IRSensor.c.obj	be8d77551e75c06f
-4	241	7624214515432327	build.ninja	2b60dcfd76574191
+4	241	7696978539250408	build.ninja	2b60dcfd76574191
 160	1119	7622675726571186	CMakeFiles/car_green.dir/Core/Src/IRSensor.cpp.obj	44b3ba7fa5257b67
 170	479	7622675726671223	CMakeFiles/car_green.dir/Core/Src/pid.c.obj	e57862074e1b5c7
 36	168	7623698977134662	CMakeFiles/car_green.dir/Core/Src/pid_control.cpp.obj	a65219b05767f400

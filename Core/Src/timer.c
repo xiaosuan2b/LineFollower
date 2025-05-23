@@ -26,13 +26,13 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 		
 		update10ms();
 
-		// oledcnt++;
+		oledcnt++;
 
-		// if (oledcnt >= 100) 
-		// {
-		// 	oled_display_max_phy_speed();
-		// 	oledcnt = 0;
-		// }
+		if (oledcnt >= 100) 
+		{
+			oled_display_max_phy_speed();
+			oledcnt = 0;
+		}
 		
 
 	
